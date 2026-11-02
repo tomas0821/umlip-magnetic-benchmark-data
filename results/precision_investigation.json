@@ -1,0 +1,26 @@
+{
+ "question": "Is the numerical noise floor a floating-point-precision artefact?",
+ "grace_matched_pair": {
+  "GRACE-2L-OMAT-medium-base (float32)": 0.00238,
+  "GRACE-2L-OMAT-medium-base-fp64 (float64)": 0.0,
+  "conclusion": "arithmetic precision contributes, but only at the 0.002 meV/f.u. level"
+ },
+ "m3gnet_matched_pair": {
+  "M3GNet-PES-MatPES float32": {
+   "floor_meV_per_fu": 1.84441,
+   "mirror_asym": 1.4477
+  },
+  "M3GNet-PES-MatPES float64": {
+   "floor_meV_per_fu": 1.84374,
+   "mirror_asym": 1.4476
+  },
+  "ratio": 1.0,
+  "conclusion": "NOT arithmetic precision - identical to 4 significant figures in fp64"
+ },
+ "neighbour_list_control": {
+  "edge_counts_under_5_rotations_cutoff_4_5_6_A": "identical in all cases",
+  "conclusion": "not a neighbour-count instability at the ASE level"
+ },
+ "overall": "The floor is model-specific and must be measured, not assumed. For GRACE it is arithmetic and removable with a float64 build. For M3GNet-MatPES it is ~1.84 meV/f.u. in BOTH precisions and survives a stable neighbour list, so it originates in the implementation's geometry/graph pipeline rather than in floating-point width; we report the measurement and its consequences without claiming a specific internal cause.",
+ "note": "repeat-evaluation spread is exactly 0 for every model tested: evaluations are deterministic; the floor is an input-representation dependence, not run-to-run noise."
+}

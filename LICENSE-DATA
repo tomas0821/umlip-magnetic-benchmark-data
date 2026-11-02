@@ -1,0 +1,9 @@
+The data, structures and results in this repository (everything except the code covered
+by LICENSE) are licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0). Copyright (c) 2026 Tomas Rojas.
+
+You are free to share and adapt this material for any purpose, provided you give appropriate
+credit. Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Reference values in reference_data.csv and reference_data_MnO.csv are extracted from the published
+works cited in each row; cite those works when using the values.

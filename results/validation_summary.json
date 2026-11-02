@@ -1,0 +1,389 @@
+{
+ "table_A_predictive_validation": {
+  "MACE-MP-0": {
+   "C44_GPa": 35.0,
+   "noise_floor_meV_per_fu": 0.0,
+   "shear_predicted": "stable",
+   "shear_observed": "stable",
+   "shear_correct": true,
+   "control_returned_to_cubic": true,
+   "max_departure_deg": 0.159,
+   "resolution_predicted": "reproducible",
+   "resolution_observed": "reproducible",
+   "spread_meV_per_fu": 0.0163,
+   "stability_precondition_met": true,
+   "resolution_correct": true
+  },
+  "CHGNet": {
+   "C44_GPa": 28.4,
+   "noise_floor_meV_per_fu": 0.0057,
+   "shear_predicted": "stable",
+   "shear_observed": "stable",
+   "shear_correct": true,
+   "control_returned_to_cubic": true,
+   "max_departure_deg": 0.198,
+   "resolution_predicted": "reproducible",
+   "resolution_observed": "reproducible",
+   "spread_meV_per_fu": 0.082,
+   "stability_precondition_met": true,
+   "resolution_correct": true
+  },
+  "SevenNet-0": {
+   "C44_GPa": -34.2,
+   "noise_floor_meV_per_fu": 0.0,
+   "shear_predicted": "unstable",
+   "shear_observed": "unstable",
+   "shear_correct": true,
+   "control_returned_to_cubic": true,
+   "max_departure_deg": 6.769,
+   "resolution_predicted": "reproducible",
+   "resolution_observed": "scatters",
+   "spread_meV_per_fu": 18.1484,
+   "stability_precondition_met": false,
+   "resolution_correct": null,
+   "note": "stability precondition not met (unstable or indeterminate lattice); floor diagnostic not scored",
+   "floor_only_rule_outcome": "false clear"
+  },
+  "M3GNet-MatPES": {
+   "C44_GPa": -67.4,
+   "noise_floor_meV_per_fu": 1.9989,
+   "shear_predicted": "unstable",
+   "shear_observed": "indeterminate",
+   "shear_correct": null,
+   "control_returned_to_cubic": false,
+   "control_final_angles": [
+    89.048,
+    91.152,
+    92.619
+   ],
+   "max_departure_deg": 4.413,
+   "note_shear": "unperturbed control drifts; shear test not scored",
+   "resolution_predicted": "scatters",
+   "resolution_observed": "scatters",
+   "spread_meV_per_fu": 1.1292,
+   "stability_precondition_met": false,
+   "resolution_correct": null,
+   "note": "stability precondition not met (unstable or indeterminate lattice); floor diagnostic not scored",
+   "floor_only_rule_outcome": "hit"
+  },
+  "MatterSim": {
+   "C44_GPa": 73.6,
+   "noise_floor_meV_per_fu": 0.0019,
+   "shear_predicted": "stable",
+   "shear_observed": "stable",
+   "shear_correct": true,
+   "control_returned_to_cubic": true,
+   "max_departure_deg": 0.05,
+   "resolution_predicted": "reproducible",
+   "resolution_observed": "reproducible",
+   "spread_meV_per_fu": 0.0057,
+   "stability_precondition_met": true,
+   "resolution_correct": true
+  },
+  "Orb-v3": {
+   "C44_GPa": 184.2,
+   "noise_floor_meV_per_fu": 0.7057,
+   "shear_predicted": "stable",
+   "shear_observed": "stable",
+   "shear_correct": true,
+   "control_returned_to_cubic": true,
+   "max_departure_deg": 0.036,
+   "resolution_predicted": "scatters",
+   "resolution_observed": "reproducible",
+   "spread_meV_per_fu": 0.1869,
+   "stability_precondition_met": true,
+   "resolution_correct": false,
+   "miss_type": "false alarm (conservative)"
+  },
+  "GRACE-2L-OMAT": {
+   "C44_GPa": 60.8,
+   "noise_floor_meV_per_fu": 0.0,
+   "shear_predicted": "stable",
+   "shear_observed": "stable",
+   "shear_correct": true,
+   "control_returned_to_cubic": true,
+   "max_departure_deg": 0.126,
+   "resolution_predicted": "reproducible",
+   "resolution_observed": "reproducible",
+   "spread_meV_per_fu": 0.0131,
+   "stability_precondition_met": true,
+   "resolution_correct": true
+  }
+ },
+ "table_B_mno_transfer": {
+  "MACE-MP-0": {
+   "ordering_meV_per_atom": -9.086,
+   "distortion_meV_per_atom": -1.3292,
+   "distortion_rhomb_minus_cubic_meV_per_atom": 1.3292,
+   "volume_term_meV_per_atom": -7.757,
+   "alpha_relaxed_deg": 90.0216,
+   "retains_rhombohedral": false,
+   "verdict": "COLLAPSES to cubic - magnetostructural coupling absent",
+   "a_eq_cubic_A": 4.5241,
+   "distortion_rhomb_minus_cubic_expgeom_meV_per_atom": 0.646,
+   "distortion_reference_construction_meV_per_atom": -0.004,
+   "dft_signal_to_floor": null,
+   "own_distortion_meV_per_fu": 2.658,
+   "below_noise_floor": false
+  },
+  "CHGNet": {
+   "ordering_meV_per_atom": -6.962900161743164,
+   "distortion_meV_per_atom": -1.2323999404907227,
+   "distortion_rhomb_minus_cubic_meV_per_atom": 1.2323999404907227,
+   "volume_term_meV_per_atom": -5.731,
+   "alpha_relaxed_deg": 89.9675,
+   "retains_rhombohedral": false,
+   "verdict": "COLLAPSES to cubic - magnetostructural coupling absent",
+   "a_eq_cubic_A": 4.4985,
+   "distortion_rhomb_minus_cubic_expgeom_meV_per_atom": 0.589,
+   "distortion_reference_construction_meV_per_atom": 0.208,
+   "dft_signal_to_floor": 736.8,
+   "own_distortion_meV_per_fu": 2.465,
+   "below_noise_floor": false
+  },
+  "SevenNet-0": {
+   "ordering_meV_per_atom": -6.9332,
+   "distortion_meV_per_atom": -1.1663,
+   "distortion_rhomb_minus_cubic_meV_per_atom": 1.1663,
+   "volume_term_meV_per_atom": -5.767,
+   "alpha_relaxed_deg": 89.9701,
+   "retains_rhombohedral": false,
+   "verdict": "COLLAPSES to cubic - magnetostructural coupling absent",
+   "a_eq_cubic_A": 4.5058,
+   "distortion_rhomb_minus_cubic_expgeom_meV_per_atom": 0.562,
+   "distortion_reference_construction_meV_per_atom": 0.126,
+   "dft_signal_to_floor": null,
+   "own_distortion_meV_per_fu": 2.333,
+   "below_noise_floor": false
+  },
+  "M3GNet-MatPES": {
+   "ordering_meV_per_atom": 0.0477,
+   "distortion_meV_per_atom": -0.761,
+   "distortion_rhomb_minus_cubic_meV_per_atom": 0.761,
+   "volume_term_meV_per_atom": 0.809,
+   "alpha_relaxed_deg": 89.9996,
+   "retains_rhombohedral": false,
+   "verdict": "COLLAPSES to cubic - magnetostructural coupling absent",
+   "a_eq_cubic_A": 4.4382,
+   "distortion_rhomb_minus_cubic_expgeom_meV_per_atom": 0.313,
+   "distortion_reference_construction_meV_per_atom": 0.654,
+   "dft_signal_to_floor": 2.1,
+   "own_distortion_meV_per_fu": 1.522,
+   "below_noise_floor": true
+  },
+  "MatterSim": {
+   "ordering_meV_per_atom": -11.479000091552734,
+   "distortion_meV_per_atom": -1.9931999444961548,
+   "distortion_rhomb_minus_cubic_meV_per_atom": 1.9931999444961548,
+   "volume_term_meV_per_atom": -9.486,
+   "alpha_relaxed_deg": 90.031,
+   "retains_rhombohedral": false,
+   "verdict": "COLLAPSES to cubic - magnetostructural coupling absent",
+   "a_eq_cubic_A": 4.5152,
+   "distortion_rhomb_minus_cubic_expgeom_meV_per_atom": 0.97,
+   "distortion_reference_construction_meV_per_atom": 0.283,
+   "dft_signal_to_floor": 2210.5,
+   "own_distortion_meV_per_fu": 3.986,
+   "below_noise_floor": false
+  },
+  "Orb-v3": {
+   "ordering_meV_per_atom": -11.3668,
+   "distortion_meV_per_atom": -1.6823,
+   "distortion_rhomb_minus_cubic_meV_per_atom": 1.6823,
+   "volume_term_meV_per_atom": -9.684,
+   "alpha_relaxed_deg": 90.028,
+   "retains_rhombohedral": false,
+   "verdict": "COLLAPSES to cubic - magnetostructural coupling absent",
+   "a_eq_cubic_A": 4.518,
+   "distortion_rhomb_minus_cubic_expgeom_meV_per_atom": 0.985,
+   "distortion_reference_construction_meV_per_atom": 0.025,
+   "dft_signal_to_floor": 6.0,
+   "own_distortion_meV_per_fu": 3.365,
+   "below_noise_floor": false
+  },
+  "GRACE-2L-OMAT": {
+   "ordering_meV_per_atom": -17.0198,
+   "distortion_meV_per_atom": -1.8831,
+   "distortion_rhomb_minus_cubic_meV_per_atom": 1.8831,
+   "volume_term_meV_per_atom": -15.137,
+   "alpha_relaxed_deg": 89.986,
+   "retains_rhombohedral": false,
+   "verdict": "COLLAPSES to cubic - magnetostructural coupling absent",
+   "a_eq_cubic_A": 4.523,
+   "distortion_rhomb_minus_cubic_expgeom_meV_per_atom": 0.916,
+   "distortion_reference_construction_meV_per_atom": -0.84,
+   "dft_signal_to_floor": null,
+   "own_distortion_meV_per_fu": 3.766,
+   "below_noise_floor": false
+  }
+ },
+ "scorecard": {
+  "predictions_correct": 10,
+  "predictions_wrong": 1,
+  "total": 11,
+  "pred_threshold_meV_per_fu": 0.08,
+  "obs_threshold_meV_per_fu": 0.5,
+  "rattle_separation_by_C44_sign": {
+   "max_spread_stable_models": 0.1869,
+   "min_spread_unstable_models": 18.1484,
+   "separation_factor": 97.1,
+   "n_stable": 5,
+   "n_unstable": 1,
+   "unstable_models": {
+    "SevenNet-0": 18.1484
+   },
+   "indeterminate_models": {
+    "M3GNet-MatPES": 1.1292
+   }
+  },
+  "misses_by_type": {
+   "Orb-v3": "false alarm (conservative)"
+  },
+  "false_clears": [],
+  "false_clears_without_precondition": [
+   "SevenNet-0"
+  ],
+  "obs_threshold_set_at": "scoring (after the runs)",
+  "resolution_true_positives": 0,
+  "rattle_detail": {
+   "MACE-MP-0": {
+    "spread_meV_per_fu": 0.016,
+    "spread_without_largest_outlier_meV_per_fu": 0.014,
+    "median_drop_below_symmetric_pristine_meV_per_fu": 0.01
+   },
+   "CHGNet": {
+    "spread_meV_per_fu": 0.082,
+    "spread_without_largest_outlier_meV_per_fu": 0.052,
+    "median_drop_below_symmetric_pristine_meV_per_fu": -0.68
+   },
+   "SevenNet-0": {
+    "spread_meV_per_fu": 18.148,
+    "spread_without_largest_outlier_meV_per_fu": 0.437,
+    "median_drop_below_symmetric_pristine_meV_per_fu": -19.91
+   },
+   "M3GNet-MatPES": {
+    "spread_meV_per_fu": 1.129,
+    "spread_without_largest_outlier_meV_per_fu": 0.933
+   },
+   "MatterSim": {
+    "spread_meV_per_fu": 0.006,
+    "spread_without_largest_outlier_meV_per_fu": 0.006,
+    "median_drop_below_symmetric_pristine_meV_per_fu": -0.0
+   },
+   "Orb-v3": {
+    "spread_meV_per_fu": 0.187,
+    "spread_without_largest_outlier_meV_per_fu": 0.172,
+    "median_drop_below_symmetric_pristine_meV_per_fu": -2.12
+   },
+   "GRACE-2L-OMAT": {
+    "spread_meV_per_fu": 0.013,
+    "spread_without_largest_outlier_meV_per_fu": 0.012,
+    "median_drop_below_symmetric_pristine_meV_per_fu": 0.0
+   }
+  },
+  "common_threshold_sensitivity": {
+   "0.05": {
+    "hits": 4,
+    "n": 5,
+    "false_clears": 1,
+    "false_alarms": 0
+   },
+   "0.08": {
+    "hits": 4,
+    "n": 5,
+    "false_clears": 1,
+    "false_alarms": 0
+   },
+   "0.1": {
+    "hits": 5,
+    "n": 5,
+    "false_clears": 0,
+    "false_alarms": 0
+   },
+   "0.15": {
+    "hits": 5,
+    "n": 5,
+    "false_clears": 0,
+    "false_alarms": 0
+   },
+   "0.187": {
+    "hits": 4,
+    "n": 5,
+    "false_clears": 0,
+    "false_alarms": 1
+   },
+   "0.2": {
+    "hits": 4,
+    "n": 5,
+    "false_clears": 0,
+    "false_alarms": 1
+   },
+   "0.3": {
+    "hits": 4,
+    "n": 5,
+    "false_clears": 0,
+    "false_alarms": 1
+   },
+   "0.5": {
+    "hits": 4,
+    "n": 5,
+    "false_clears": 0,
+    "false_alarms": 1
+   },
+   "0.7": {
+    "hits": 4,
+    "n": 5,
+    "false_clears": 0,
+    "false_alarms": 1
+   }
+  },
+  "floor_vs_spread_spearman_stable_models": {
+   "rho": 0.6,
+   "n": 5,
+   "p_value": 0.22
+  }
+ },
+ "mechanism_eos_artefact": {
+  "pearson_r_aeq_error_vs_ordering": -0.859,
+  "n": 7,
+  "p_value": 0.013,
+  "ci95": [
+   -0.98,
+   -0.3
+  ],
+  "r_without_M3GNet": -0.7,
+  "a_AFM2_DFT": 4.434,
+  "a_FM_DFT": 4.462,
+  "per_model": {
+   "MACE-MP-0": {
+    "a_eq_error_A": 0.0901,
+    "ordering_meV_per_atom": -9.086
+   },
+   "CHGNet": {
+    "a_eq_error_A": 0.0645,
+    "ordering_meV_per_atom": -6.962900161743164
+   },
+   "SevenNet-0": {
+    "a_eq_error_A": 0.0718,
+    "ordering_meV_per_atom": -6.9332
+   },
+   "M3GNet-MatPES": {
+    "a_eq_error_A": 0.0042,
+    "ordering_meV_per_atom": 0.0477
+   },
+   "MatterSim": {
+    "a_eq_error_A": 0.0812,
+    "ordering_meV_per_atom": -11.479000091552734
+   },
+   "Orb-v3": {
+    "a_eq_error_A": 0.084,
+    "ordering_meV_per_atom": -11.3668
+   },
+   "GRACE-2L-OMAT": {
+    "a_eq_error_A": 0.089,
+    "ordering_meV_per_atom": -17.0198
+   }
+  },
+  "statement": "The apparent ordering energy of a spin-blind model on MnO tracks its equation-of-state error, not magnetism: r = -0.859 between the cubic a_eq error and the reported FM-AFM-II splitting. The one model with an accurate a_eq (M3GNet-MatPES, +0.004 A) reports a splitting of essentially zero -- the honest spin-blind answer -- rather than the correct +45.5 meV/atom."
+ }
+}

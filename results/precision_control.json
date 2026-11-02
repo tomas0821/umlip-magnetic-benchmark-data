@@ -1,0 +1,17 @@
+{
+ "GRACE-2L-OMAT-medium-base": {
+  "repeat": 0.0,
+  "rotation": 0.002384185791015625,
+  "translation": 0.001430511474609375,
+  "mirror": 0.0002384185791015625,
+  "noise_floor_meV_per_fu": 0.002384185791015625
+ },
+ "GRACE-2L-OMAT-medium-base-fp64": {
+  "repeat": 0.0,
+  "rotation": 1.673328142715036e-09,
+  "translation": 3.552713678800501e-12,
+  "mirror": 0.0,
+  "noise_floor_meV_per_fu": 1.673328142715036e-09
+ },
+ "ratio_f32_over_f64": 1424816.645435244
+}

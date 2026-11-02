@@ -1,0 +1,42 @@
+{
+ "fmax_production": 0.01,
+ "fmax_tight": 0.003,
+ "cases": {
+  "SevenNet-0|sheared|V_Cr": {
+   "E_f_tight": -0.8669099807739258,
+   "converged": true,
+   "steps": 434,
+   "opt": "FIRE"
+  },
+  "SevenNet-0|cubic|V_N": {
+   "E_f_tight": 0.3120613098144531,
+   "converged": true,
+   "steps": 53,
+   "opt": "FIRE"
+  },
+  "MACE-MP-0|cubic|V_N": {
+   "E_f_tight": 0.2137609709052839,
+   "converged": true,
+   "steps": 35,
+   "opt": "FIRE"
+  },
+  "MACE-MP-0|cubic|V_Cr": {
+   "E_f_tight": 0.45910794806260213,
+   "converged": true,
+   "steps": 44,
+   "opt": "FIRE"
+  },
+  "CHGNet|cubic|V_N": {
+   "E_f_tight": 1.0973052978515625,
+   "converged": true,
+   "steps": 98,
+   "opt": "FIRE"
+  },
+  "MatterSim|cubic|V_Cr": {
+   "E_f_tight": 0.2185211181640625,
+   "converged": true,
+   "steps": 38,
+   "opt": "FIRE"
+  }
+ }
+}

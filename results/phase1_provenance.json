@@ -1,0 +1,106 @@
+{
+ "MACE-MP-0": {
+  "force_noise_cubic_conv_eV_per_A": 0.0,
+  "force_noise_cubic_2x2x2_V_N_eV_per_A": 0.0,
+  "residual_fmax_eV_per_A": {
+   "cubic|V_N": 0.00892,
+   "cubic|V_Cr": 0.00645,
+   "cubic|A_N": 0.00499,
+   "cubic|A_Cr": 0.0071,
+   "cubic|I_N": 0.00972,
+   "sheared|V_N": 0.00795,
+   "sheared|V_Cr": 0.00919,
+   "sheared|A_N": 0.00716,
+   "sheared|A_Cr": 0.00939,
+   "sheared|I_N": 0.00989
+  }
+ },
+ "CHGNet": {
+  "force_noise_cubic_conv_eV_per_A": 3e-05,
+  "force_noise_cubic_2x2x2_V_N_eV_per_A": 5e-05,
+  "residual_fmax_eV_per_A": {
+   "cubic|V_N": 0.00936,
+   "cubic|V_Cr": 0.0079,
+   "cubic|A_N": 0.00993,
+   "cubic|A_Cr": 0.00863,
+   "cubic|I_N": 0.00891,
+   "sheared|V_N": 0.00986,
+   "sheared|V_Cr": 0.00982,
+   "sheared|A_N": 0.00909,
+   "sheared|A_Cr": 0.0076,
+   "sheared|I_N": 0.00983
+  }
+ },
+ "SevenNet-0": {
+  "force_noise_cubic_conv_eV_per_A": 0.0,
+  "force_noise_cubic_2x2x2_V_N_eV_per_A": 0.0,
+  "residual_fmax_eV_per_A": {
+   "cubic|V_N": 0.00885,
+   "cubic|V_Cr": 0.00957,
+   "cubic|A_N": 0.00728,
+   "cubic|A_Cr": 0.00426,
+   "cubic|I_N": 0.00671,
+   "sheared|V_N": 0.00925,
+   "sheared|V_Cr": 0.00898,
+   "sheared|A_N": 0.00917,
+   "sheared|A_Cr": 0.00982,
+   "sheared|I_N": 0.00967
+  }
+ },
+ "M3GNet-MatPES": {
+  "force_noise_cubic_conv_eV_per_A": 0.02897,
+  "force_noise_cubic_2x2x2_V_N_eV_per_A": 0.03537,
+  "residual_fmax_eV_per_A": {
+   "cubic|V_N": 0.00724,
+   "cubic|V_Cr": 0.0098,
+   "cubic|A_N": 0.00971,
+   "cubic|A_Cr": 0.03427,
+   "cubic|I_N": 0.00963,
+   "sheared|V_N": 0.00989,
+   "sheared|V_Cr": 0.0093,
+   "sheared|A_N": 0.00998,
+   "sheared|A_Cr": 0.02244,
+   "sheared|I_N": 0.00996
+  }
+ },
+ "MatterSim": {
+  "force_noise_cubic_conv_eV_per_A": 1e-05,
+  "force_noise_cubic_2x2x2_V_N_eV_per_A": 1e-05,
+  "residual_fmax_eV_per_A": {
+   "cubic|V_N": 0.0098,
+   "cubic|V_Cr": 0.00955,
+   "cubic|A_N": 0.00906,
+   "cubic|A_Cr": 0.00859,
+   "cubic|I_N": 0.00979,
+   "sheared|V_N": 0.00812,
+   "sheared|V_Cr": 0.00685,
+   "sheared|A_N": 0.00827,
+   "sheared|A_Cr": 0.00683,
+   "sheared|I_N": 0.00838
+  }
+ },
+ "_e2_continuation_SevenNet_sheared_V_Cr": {
+  "0.01": {
+   "E_defect": -588.6449,
+   "E_pristine": -598.1664,
+   "E_f_eV": 0.0165,
+   "max_disp_A": 0.4448,
+   "converged": true
+  },
+  "0.003": {
+   "E_defect": -589.5284,
+   "E_pristine": -598.1664,
+   "E_f_eV": -0.867,
+   "max_disp_A": 0.5226,
+   "converged": true
+  },
+  "0.001": {
+   "E_defect": -589.5283,
+   "E_pristine": -598.1664,
+   "E_f_eV": -0.8669,
+   "max_disp_A": 0.5225,
+   "converged": true
+  }
+ },
+ "_e2_still_falling": false
+}

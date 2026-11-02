@@ -1,0 +1,407 @@
+[
+  {
+    "model": "MACE-MP-0",
+    "reservoirs": {
+      "E_N2": -16.225300873097837,
+      "mu_N": -8.112650436548918,
+      "mu_Cr": -9.450683463488371,
+      "converged": true
+    },
+    "phase": {
+      "E_cubic_sp": -74.50057710066221,
+      "E_sheared_sp": -74.49138866817478,
+      "dE_sp_meV_per_fu": 2.297108121858571,
+      "E_cubic_posrelax": -74.50057710066221,
+      "E_sheared_posrelax": -74.49138866817478,
+      "dE_posrelax_meV_per_fu": 2.297108121858571,
+      "fullrelax_from_sheared_angles_deg": [
+        90.0,
+        90.0,
+        89.99
+      ],
+      "fullrelax_converged": true
+    },
+    "defects": {
+      "cubic": {
+        "E_pristine": -596.0046168052974,
+        "V_N": {
+          "E": -587.6780094163587,
+          "E_f_eV": 0.21395695238975065,
+          "converged": true
+        },
+        "V_Cr": {
+          "E": -586.0947312580332,
+          "E_f_eV": 0.459202083775768,
+          "converged": true
+        },
+        "A_N": {
+          "E": -589.6222663879498,
+          "E_f_eV": 5.044317390408086,
+          "converged": true
+        },
+        "A_Cr": {
+          "E": -594.8142622633428,
+          "E_f_eV": 2.5283875688940007,
+          "converged": true
+        },
+        "I_N": {
+          "E": -601.5897907192708,
+          "E_f_eV": 2.527476522575469,
+          "converged": true
+        }
+      },
+      "sheared": {
+        "E_pristine": -595.9311093453979,
+        "V_N": {
+          "E": -587.6101769219183,
+          "E_f_eV": 0.20828198693065758,
+          "converged": true
+        },
+        "V_Cr": {
+          "E": -586.0181697045956,
+          "E_f_eV": 0.46225617731390756,
+          "converged": true
+        },
+        "A_N": {
+          "E": -589.5462342730482,
+          "E_f_eV": 5.046842045410248,
+          "converged": true
+        },
+        "A_Cr": {
+          "E": -594.75716811526,
+          "E_f_eV": 2.5119742570773234,
+          "converged": true
+        },
+        "I_N": {
+          "E": -601.7272646023266,
+          "E_f_eV": 2.3164951796201905,
+          "converged": true
+        }
+      }
+    }
+  },
+  {
+    "model": "CHGNet",
+    "reservoirs": {
+      "E_N2": -16.670257568359375,
+      "mu_N": -8.335128784179688,
+      "mu_Cr": -9.5410795211792,
+      "converged": true
+    },
+    "phase": {
+      "E_cubic_sp": -76.33055877685547,
+      "E_sheared_sp": -76.32405853271484,
+      "dE_sp_meV_per_fu": 1.62506103515625,
+      "E_cubic_posrelax": -76.33055877685547,
+      "E_sheared_posrelax": -76.32405853271484,
+      "dE_posrelax_meV_per_fu": 1.62506103515625,
+      "fullrelax_from_sheared_angles_deg": [
+        90.0,
+        90.0,
+        90.036
+      ],
+      "fullrelax_converged": true
+    },
+    "defects": {
+      "cubic": {
+        "E_pristine": -610.6445922851562,
+        "V_N": {
+          "E": -601.210693359375,
+          "E_f_eV": 1.0987701416015625,
+          "converged": true
+        },
+        "V_Cr": {
+          "E": -600.5773315429688,
+          "E_f_eV": 0.5261812210083008,
+          "converged": true
+        },
+        "A_N": {
+          "E": -604.6311645507812,
+          "E_f_eV": 4.807476997375488,
+          "converged": true
+        },
+        "A_Cr": {
+          "E": -609.562255859375,
+          "E_f_eV": 2.2882871627807617,
+          "converged": true
+        },
+        "I_N": {
+          "E": -616.6113891601562,
+          "E_f_eV": 2.3683319091796875,
+          "converged": true
+        }
+      },
+      "sheared": {
+        "E_pristine": -610.592529296875,
+        "V_N": {
+          "E": -601.1702880859375,
+          "E_f_eV": 1.0871124267578125,
+          "converged": true
+        },
+        "V_Cr": {
+          "E": -600.5053100585938,
+          "E_f_eV": 0.5461397171020508,
+          "converged": true
+        },
+        "A_N": {
+          "E": -604.5682983398438,
+          "E_f_eV": 4.818280220031738,
+          "converged": true
+        },
+        "A_Cr": {
+          "E": -609.549560546875,
+          "E_f_eV": 2.2489194869995117,
+          "converged": true
+        },
+        "I_N": {
+          "E": -616.5421752929688,
+          "E_f_eV": 2.3854827880859375,
+          "converged": true
+        }
+      }
+    }
+  },
+  {
+    "model": "SevenNet-0",
+    "reservoirs": {
+      "E_N2": -16.483177185058594,
+      "mu_N": -8.241588592529297,
+      "mu_Cr": -9.504968643188477,
+      "converged": true
+    },
+    "phase": {
+      "E_cubic_sp": -74.7620620727539,
+      "E_sheared_sp": -74.77079772949219,
+      "dE_sp_meV_per_fu": -2.1839141845703125,
+      "E_cubic_posrelax": -74.7620620727539,
+      "E_sheared_posrelax": -74.77079772949219,
+      "dE_posrelax_meV_per_fu": -2.1839141845703125,
+      "fullrelax_from_sheared_angles_deg": [
+        90.0,
+        90.0,
+        83.196
+      ],
+      "fullrelax_converged": true
+    },
+    "defects": {
+      "cubic": {
+        "E_pristine": -598.0964965820312,
+        "V_N": {
+          "E": -589.5426025390625,
+          "E_f_eV": 0.3123054504394531,
+          "converged": true
+        },
+        "V_Cr": {
+          "E": -587.7145385742188,
+          "E_f_eV": 0.8769893646240234,
+          "converged": true
+        },
+        "A_N": {
+          "E": -596.016845703125,
+          "E_f_eV": 0.8162708282470703,
+          "converged": true
+        },
+        "A_Cr": {
+          "E": -596.4134521484375,
+          "E_f_eV": 2.9464244842529297,
+          "converged": true
+        },
+        "I_N": {
+          "E": -603.5000610351562,
+          "E_f_eV": 2.838024139404297,
+          "converged": true
+        }
+      },
+      "sheared": {
+        "E_pristine": -598.1663818359375,
+        "V_N": {
+          "E": -589.6868896484375,
+          "E_f_eV": 0.23790359497070312,
+          "converged": true
+        },
+        "V_Cr": {
+          "E": -588.6446533203125,
+          "E_f_eV": 0.016759872436523438,
+          "converged": true
+        },
+        "A_N": {
+          "E": -596.2613525390625,
+          "E_f_eV": 0.6416492462158203,
+          "converged": true
+        },
+        "A_Cr": {
+          "E": -596.4845581054688,
+          "E_f_eV": 2.9452037811279297,
+          "converged": true
+        },
+        "I_N": {
+          "E": -605.1888427734375,
+          "E_f_eV": 1.2191276550292969,
+          "converged": true
+        }
+      }
+    }
+  },
+  {
+    "model": "M3GNet-MatPES",
+    "reservoirs": {
+      "E_N2": -16.540189743041992,
+      "mu_N": -8.270094871520996,
+      "mu_Cr": -9.512632369995117,
+      "converged": false
+    },
+    "phase": {
+      "E_cubic_sp": -74.7625732421875,
+      "E_sheared_sp": -74.76558685302734,
+      "dE_sp_meV_per_fu": -0.7534027099609375,
+      "E_cubic_posrelax": -74.76708221435547,
+      "E_sheared_posrelax": -74.76373291015625,
+      "dE_posrelax_meV_per_fu": 0.8373260498046875,
+      "fullrelax_from_sheared_angles_deg": [
+        89.998,
+        90.007,
+        90.783
+      ],
+      "fullrelax_converged": false
+    },
+    "defects": {
+      "cubic": {
+        "E_pristine": -598.69873046875,
+        "V_N": {
+          "E": -589.4683837890625,
+          "E_f_eV": 0.9602518081665039,
+          "converged": true
+        },
+        "V_Cr": {
+          "E": -588.0971069335938,
+          "E_f_eV": 1.0889911651611328,
+          "converged": false
+        },
+        "A_N": {
+          "E": -594.1840209960938,
+          "E_f_eV": 3.272171974182129,
+          "converged": true
+        },
+        "A_Cr": {
+          "E": -597.522705078125,
+          "E_f_eV": 2.418562889099121,
+          "converged": false
+        },
+        "I_N": {
+          "E": -604.236083984375,
+          "E_f_eV": 2.732741355895996,
+          "converged": true
+        }
+      },
+      "sheared": {
+        "E_pristine": -598.7056884765625,
+        "V_N": {
+          "E": -589.42626953125,
+          "E_f_eV": 1.009324073791504,
+          "converged": true
+        },
+        "V_Cr": {
+          "E": -588.0863037109375,
+          "E_f_eV": 1.1067523956298828,
+          "converged": true
+        },
+        "A_N": {
+          "E": -594.3154296875,
+          "E_f_eV": 3.147721290588379,
+          "converged": false
+        },
+        "A_Cr": {
+          "E": -597.4779052734375,
+          "E_f_eV": 2.470320701599121,
+          "converged": false
+        },
+        "I_N": {
+          "E": -604.2630004882812,
+          "E_f_eV": 2.712782859802246,
+          "converged": true
+        }
+      }
+    }
+  },
+  {
+    "model": "MatterSim",
+    "reservoirs": {
+      "E_N2": -16.628849029541016,
+      "mu_N": -8.314424514770508,
+      "mu_Cr": -9.631635665893555,
+      "converged": true
+    },
+    "phase": {
+      "E_cubic_sp": -74.83879089355469,
+      "E_sheared_sp": -74.81964111328125,
+      "dE_sp_meV_per_fu": 4.787445068359375,
+      "E_cubic_posrelax": -74.83879089355469,
+      "E_sheared_posrelax": -74.81964111328125,
+      "dE_posrelax_meV_per_fu": 4.787445068359375,
+      "fullrelax_from_sheared_angles_deg": [
+        90.0,
+        90.0,
+        90.124
+      ],
+      "fullrelax_converged": true
+    },
+    "defects": {
+      "cubic": {
+        "E_pristine": -598.7100219726562,
+        "V_N": {
+          "E": -589.021728515625,
+          "E_f_eV": 1.3738689422607422,
+          "converged": true
+        },
+        "V_Cr": {
+          "E": -588.8599853515625,
+          "E_f_eV": 0.2184009552001953,
+          "converged": true
+        },
+        "A_N": {
+          "E": -589.6398315429688,
+          "E_f_eV": 7.752979278564453,
+          "converged": true
+        },
+        "A_Cr": {
+          "E": -594.2313842773438,
+          "E_f_eV": 5.795848846435547,
+          "converged": true
+        },
+        "I_N": {
+          "E": -602.3296508789062,
+          "E_f_eV": 4.694795608520508,
+          "converged": true
+        }
+      },
+      "sheared": {
+        "E_pristine": -598.55712890625,
+        "V_N": {
+          "E": -588.8759155273438,
+          "E_f_eV": 1.3667888641357422,
+          "converged": true
+        },
+        "V_Cr": {
+          "E": -588.7066650390625,
+          "E_f_eV": 0.2188282012939453,
+          "converged": true
+        },
+        "A_N": {
+          "E": -592.4313354492188,
+          "E_f_eV": 4.808582305908203,
+          "converged": true
+        },
+        "A_Cr": {
+          "E": -594.1039428710938,
+          "E_f_eV": 5.770397186279297,
+          "converged": true
+        },
+        "I_N": {
+          "E": -602.2093505859375,
+          "E_f_eV": 4.662202835083008,
+          "converged": true
+        }
+      }
+    }
+  }
+]

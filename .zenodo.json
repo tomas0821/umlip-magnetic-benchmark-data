@@ -1,0 +1,23 @@
+{
+  "title": "Universal machine-learning interatomic potentials on antiferromagnetic CrN and MnO: reference data, structures, model outputs and analysis code",
+  "upload_type": "dataset",
+  "description": "Reference data (with per-row provenance), input structures, raw model outputs, derived quantities, relaxed geometries, analysis and scoring scripts and pinned environments for a zero-shot evaluation of seven spin-blind universal machine-learning interatomic potentials (MACE-MP-0, CHGNet, SevenNet-0, M3GNet-MatPES, MatterSim, Orb-v3, GRACE-2L-OMAT) on the magnetic energetics of antiferromagnetic CrN and MnO. No new DFT calculations were performed; all reference values are taken from published work.",
+  "creators": [
+    {
+      "name": "Rojas, Tomas",
+      "affiliation": "Universidad de Costa Rica"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "universal interatomic potentials",
+    "machine-learning interatomic potentials",
+    "antiferromagnetism",
+    "magnetostructural coupling",
+    "CrN",
+    "MnO",
+    "benchmark"
+  ],
+  "version": "v1.0.1"
+}

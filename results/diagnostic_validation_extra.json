@@ -1,0 +1,122 @@
+{
+ "Orb-v3": {
+  "a_eq_A": 4.135,
+  "C44_GPa": 184.2,
+  "noise_floor_meV_per_fu": 0.7057,
+  "prediction_shear": "stable",
+  "prediction_resolution": "scatters",
+  "shear_stability": {
+   "control_90deg": {
+    "start_gamma": 90.0,
+    "final_angles": [
+     89.995,
+     89.999,
+     90.005
+    ],
+    "final_gamma": 90.005,
+    "returned_to_cubic": true,
+    "final_volume_A3": 70.22501823997094
+   },
+   "perturbed_89deg": {
+    "start_gamma": 89.0,
+    "final_angles": [
+     89.992,
+     90.013,
+     90.036
+    ],
+    "final_gamma": 90.036,
+    "returned_to_cubic": true,
+    "final_volume_A3": 72.225349192198
+   },
+   "perturbed_91deg": {
+    "start_gamma": 91.0,
+    "final_angles": [
+     89.993,
+     90.001,
+     90.034
+    ],
+    "final_gamma": 90.034,
+    "returned_to_cubic": true,
+    "final_volume_A3": 72.23509711307683
+   },
+   "_verdict": "STABLE - undoes the perturbation",
+   "_max_departure_deg": 0.036
+  },
+  "mev_resolution": {
+   "n_trials": 8,
+   "rattle_amplitude_A": 0.01,
+   "energies_eV": [
+    -596.849121,
+    -596.852539,
+    -596.84668,
+    -596.850952,
+    -596.847168,
+    -596.85022,
+    -596.848083,
+    -596.852661
+   ],
+   "spread_meV_per_fu": 0.1869,
+   "std_meV_per_fu": 0.0673
+  }
+ },
+ "GRACE-2L-OMAT": {
+  "a_eq_A": 4.098,
+  "C44_GPa": 60.8,
+  "noise_floor_meV_per_fu": 0.0,
+  "prediction_shear": "stable",
+  "prediction_resolution": "reproducible",
+  "shear_stability": {
+   "control_90deg": {
+    "start_gamma": 90.0,
+    "final_angles": [
+     90.0,
+     90.0,
+     90.0
+    ],
+    "final_gamma": 90.0,
+    "returned_to_cubic": true,
+    "final_volume_A3": 68.72169199850495
+   },
+   "perturbed_89deg": {
+    "start_gamma": 89.0,
+    "final_angles": [
+     90.0,
+     90.0,
+     89.874
+    ],
+    "final_gamma": 89.874,
+    "returned_to_cubic": true,
+    "final_volume_A3": 68.6693282048779
+   },
+   "perturbed_91deg": {
+    "start_gamma": 91.0,
+    "final_angles": [
+     90.0,
+     90.0,
+     90.126
+    ],
+    "final_gamma": 90.126,
+    "returned_to_cubic": true,
+    "final_volume_A3": 68.66932820487783
+   },
+   "_verdict": "STABLE - undoes the perturbation",
+   "_max_departure_deg": 0.126
+  },
+  "mev_resolution": {
+   "n_trials": 8,
+   "rattle_amplitude_A": 0.01,
+   "energies_eV": [
+    -596.578096,
+    -596.578211,
+    -596.577902,
+    -596.578153,
+    -596.578135,
+    -596.578171,
+    -596.578321,
+    -596.577941
+   ],
+   "spread_meV_per_fu": 0.0131,
+   "std_meV_per_fu": 0.004
+  }
+ }
+}

@@ -1,0 +1,476 @@
+{
+ "threshold_A": 0.9,
+ "cases": {
+  "MACE-MP-0|cubic|V_N": {
+   "max_disp_A": 0.1918,
+   "mean_disp_A": 0.0484,
+   "min_interatomic_A": 1.8782,
+   "reconstructed": false
+  },
+  "MACE-MP-0|cubic|V_Cr": {
+   "max_disp_A": 0.1216,
+   "mean_disp_A": 0.0406,
+   "min_interatomic_A": 1.9892,
+   "reconstructed": false
+  },
+  "MACE-MP-0|cubic|A_N": {
+   "max_disp_A": 0.0994,
+   "mean_disp_A": 0.0408,
+   "min_interatomic_A": 1.9906,
+   "reconstructed": false
+  },
+  "MACE-MP-0|cubic|A_Cr": {
+   "max_disp_A": 0.1526,
+   "mean_disp_A": 0.0493,
+   "min_interatomic_A": 1.9174,
+   "reconstructed": false
+  },
+  "MACE-MP-0|cubic|I_N": {
+   "max_disp_A": 0.5546,
+   "mean_disp_A": 0.1032,
+   "min_interatomic_A": 1.9236,
+   "reconstructed": false
+  },
+  "MACE-MP-0|sheared|V_N": {
+   "max_disp_A": 0.1921,
+   "mean_disp_A": 0.0484,
+   "min_interatomic_A": 1.8779,
+   "reconstructed": false
+  },
+  "MACE-MP-0|sheared|V_Cr": {
+   "max_disp_A": 0.1323,
+   "mean_disp_A": 0.0407,
+   "min_interatomic_A": 1.9837,
+   "reconstructed": false
+  },
+  "MACE-MP-0|sheared|A_N": {
+   "max_disp_A": 0.1034,
+   "mean_disp_A": 0.0411,
+   "min_interatomic_A": 1.9901,
+   "reconstructed": false
+  },
+  "MACE-MP-0|sheared|A_Cr": {
+   "max_disp_A": 0.156,
+   "mean_disp_A": 0.0522,
+   "min_interatomic_A": 1.9186,
+   "reconstructed": false
+  },
+  "MACE-MP-0|sheared|I_N": {
+   "max_disp_A": 0.6909,
+   "mean_disp_A": 0.145,
+   "min_interatomic_A": 1.8337,
+   "reconstructed": false
+  },
+  "CHGNet|cubic|V_N": {
+   "max_disp_A": 0.0639,
+   "mean_disp_A": 0.0239,
+   "min_interatomic_A": 2.0129,
+   "reconstructed": false
+  },
+  "CHGNet|cubic|V_Cr": {
+   "max_disp_A": 0.0759,
+   "mean_disp_A": 0.0272,
+   "min_interatomic_A": 1.9941,
+   "reconstructed": false
+  },
+  "CHGNet|cubic|A_N": {
+   "max_disp_A": 0.1893,
+   "mean_disp_A": 0.0394,
+   "min_interatomic_A": 1.8807,
+   "reconstructed": false
+  },
+  "CHGNet|cubic|A_Cr": {
+   "max_disp_A": 1.2219,
+   "mean_disp_A": 0.1103,
+   "min_interatomic_A": 1.8886,
+   "reconstructed": true
+  },
+  "CHGNet|cubic|I_N": {
+   "max_disp_A": 0.4027,
+   "mean_disp_A": 0.0741,
+   "min_interatomic_A": 1.8873,
+   "reconstructed": false
+  },
+  "CHGNet|sheared|V_N": {
+   "max_disp_A": 0.0661,
+   "mean_disp_A": 0.0318,
+   "min_interatomic_A": 2.0112,
+   "reconstructed": false
+  },
+  "CHGNet|sheared|V_Cr": {
+   "max_disp_A": 0.0848,
+   "mean_disp_A": 0.0293,
+   "min_interatomic_A": 1.9931,
+   "reconstructed": false
+  },
+  "CHGNet|sheared|A_N": {
+   "max_disp_A": 0.2071,
+   "mean_disp_A": 0.0515,
+   "min_interatomic_A": 1.8748,
+   "reconstructed": false
+  },
+  "CHGNet|sheared|A_Cr": {
+   "max_disp_A": 1.2155,
+   "mean_disp_A": 0.1162,
+   "min_interatomic_A": 1.871,
+   "reconstructed": true
+  },
+  "CHGNet|sheared|I_N": {
+   "max_disp_A": 0.4146,
+   "mean_disp_A": 0.0765,
+   "min_interatomic_A": 1.876,
+   "reconstructed": false
+  },
+  "SevenNet-0|cubic|V_N": {
+   "max_disp_A": 0.1193,
+   "mean_disp_A": 0.053,
+   "min_interatomic_A": 1.9891,
+   "reconstructed": false
+  },
+  "SevenNet-0|cubic|V_Cr": {
+   "max_disp_A": 0.242,
+   "mean_disp_A": 0.0837,
+   "min_interatomic_A": 1.9065,
+   "reconstructed": false
+  },
+  "SevenNet-0|cubic|A_N": {
+   "max_disp_A": 1.3496,
+   "mean_disp_A": 0.2644,
+   "min_interatomic_A": 1.2392,
+   "reconstructed": true
+  },
+  "SevenNet-0|cubic|A_Cr": {
+   "max_disp_A": 0.1544,
+   "mean_disp_A": 0.0646,
+   "min_interatomic_A": 1.9156,
+   "reconstructed": false
+  },
+  "SevenNet-0|cubic|I_N": {
+   "max_disp_A": 0.4881,
+   "mean_disp_A": 0.134,
+   "min_interatomic_A": 1.9187,
+   "reconstructed": false
+  },
+  "SevenNet-0|sheared|V_N": {
+   "max_disp_A": 0.2492,
+   "mean_disp_A": 0.0823,
+   "min_interatomic_A": 1.9515,
+   "reconstructed": false
+  },
+  "SevenNet-0|sheared|V_Cr": {
+   "max_disp_A": 0.4433,
+   "mean_disp_A": 0.1873,
+   "min_interatomic_A": 1.7941,
+   "reconstructed": false
+  },
+  "SevenNet-0|sheared|A_N": {
+   "max_disp_A": 2.1363,
+   "mean_disp_A": 0.3243,
+   "min_interatomic_A": 1.3152,
+   "reconstructed": true
+  },
+  "SevenNet-0|sheared|A_Cr": {
+   "max_disp_A": 0.1697,
+   "mean_disp_A": 0.0783,
+   "min_interatomic_A": 1.9003,
+   "reconstructed": false
+  },
+  "SevenNet-0|sheared|I_N": {
+   "max_disp_A": 0.6368,
+   "mean_disp_A": 0.3085,
+   "min_interatomic_A": 1.8459,
+   "reconstructed": false
+  },
+  "M3GNet-MatPES|cubic|V_N": {
+   "max_disp_A": 0.2125,
+   "mean_disp_A": 0.0738,
+   "min_interatomic_A": 1.9854,
+   "reconstructed": false
+  },
+  "M3GNet-MatPES|cubic|V_Cr": {
+   "max_disp_A": 0.1901,
+   "mean_disp_A": 0.0829,
+   "min_interatomic_A": 1.964,
+   "reconstructed": false
+  },
+  "M3GNet-MatPES|cubic|A_N": {
+   "max_disp_A": 1.1492,
+   "mean_disp_A": 0.1557,
+   "min_interatomic_A": 1.8328,
+   "reconstructed": true
+  },
+  "M3GNet-MatPES|cubic|A_Cr": {
+   "max_disp_A": 0.2295,
+   "mean_disp_A": 0.0625,
+   "min_interatomic_A": 1.9266,
+   "reconstructed": false
+  },
+  "M3GNet-MatPES|cubic|I_N": {
+   "max_disp_A": 0.4816,
+   "mean_disp_A": 0.1128,
+   "min_interatomic_A": 1.8205,
+   "reconstructed": false
+  },
+  "M3GNet-MatPES|sheared|V_N": {
+   "max_disp_A": 0.2551,
+   "mean_disp_A": 0.0723,
+   "min_interatomic_A": 1.9881,
+   "reconstructed": false
+  },
+  "M3GNet-MatPES|sheared|V_Cr": {
+   "max_disp_A": 0.2092,
+   "mean_disp_A": 0.0826,
+   "min_interatomic_A": 1.9592,
+   "reconstructed": false
+  },
+  "M3GNet-MatPES|sheared|A_N": {
+   "max_disp_A": 1.1206,
+   "mean_disp_A": 0.134,
+   "min_interatomic_A": 1.8454,
+   "reconstructed": true
+  },
+  "M3GNet-MatPES|sheared|A_Cr": {
+   "max_disp_A": 0.2019,
+   "mean_disp_A": 0.0607,
+   "min_interatomic_A": 1.93,
+   "reconstructed": false
+  },
+  "M3GNet-MatPES|sheared|I_N": {
+   "max_disp_A": 0.6105,
+   "mean_disp_A": 0.1265,
+   "min_interatomic_A": 1.7947,
+   "reconstructed": false
+  },
+  "MatterSim|cubic|V_N": {
+   "max_disp_A": 0.0875,
+   "mean_disp_A": 0.0197,
+   "min_interatomic_A": 2.0484,
+   "reconstructed": false
+  },
+  "MatterSim|cubic|V_Cr": {
+   "max_disp_A": 0.1177,
+   "mean_disp_A": 0.0353,
+   "min_interatomic_A": 1.9922,
+   "reconstructed": false
+  },
+  "MatterSim|cubic|A_N": {
+   "max_disp_A": 0.1088,
+   "mean_disp_A": 0.0266,
+   "min_interatomic_A": 1.9612,
+   "reconstructed": false
+  },
+  "MatterSim|cubic|A_Cr": {
+   "max_disp_A": 0.1059,
+   "mean_disp_A": 0.0189,
+   "min_interatomic_A": 1.9641,
+   "reconstructed": false
+  },
+  "MatterSim|cubic|I_N": {
+   "max_disp_A": 0.3823,
+   "mean_disp_A": 0.0619,
+   "min_interatomic_A": 1.8224,
+   "reconstructed": false
+  },
+  "MatterSim|sheared|V_N": {
+   "max_disp_A": 0.0848,
+   "mean_disp_A": 0.02,
+   "min_interatomic_A": 2.0455,
+   "reconstructed": false
+  },
+  "MatterSim|sheared|V_Cr": {
+   "max_disp_A": 0.1241,
+   "mean_disp_A": 0.037,
+   "min_interatomic_A": 1.9885,
+   "reconstructed": false
+  },
+  "MatterSim|sheared|A_N": {
+   "max_disp_A": 1.1056,
+   "mean_disp_A": 0.0993,
+   "min_interatomic_A": 1.8273,
+   "reconstructed": true
+  },
+  "MatterSim|sheared|A_Cr": {
+   "max_disp_A": 0.1251,
+   "mean_disp_A": 0.0286,
+   "min_interatomic_A": 1.9612,
+   "reconstructed": false
+  },
+  "MatterSim|sheared|I_N": {
+   "max_disp_A": 0.4757,
+   "mean_disp_A": 0.0746,
+   "min_interatomic_A": 1.8109,
+   "reconstructed": false
+  },
+  "Orb-v3|cubic|V_N": {
+   "max_disp_A": 0.1333,
+   "mean_disp_A": 0.0304,
+   "min_interatomic_A": 2.0297,
+   "reconstructed": false
+  },
+  "Orb-v3|cubic|V_Cr": {
+   "max_disp_A": 0.1268,
+   "mean_disp_A": 0.0473,
+   "min_interatomic_A": 1.986,
+   "reconstructed": false
+  },
+  "Orb-v3|cubic|A_N": {
+   "max_disp_A": 2.172,
+   "mean_disp_A": 0.1224,
+   "min_interatomic_A": 1.285,
+   "reconstructed": true
+  },
+  "Orb-v3|cubic|A_Cr": {
+   "max_disp_A": 1.1208,
+   "mean_disp_A": 0.094,
+   "min_interatomic_A": 1.8736,
+   "reconstructed": true
+  },
+  "Orb-v3|cubic|I_N": {
+   "max_disp_A": 0.4247,
+   "mean_disp_A": 0.0648,
+   "min_interatomic_A": 1.8701,
+   "reconstructed": false
+  },
+  "Orb-v3|sheared|V_N": {
+   "max_disp_A": 0.1302,
+   "mean_disp_A": 0.0332,
+   "min_interatomic_A": 2.0194,
+   "reconstructed": false
+  },
+  "Orb-v3|sheared|V_Cr": {
+   "max_disp_A": 0.2043,
+   "mean_disp_A": 0.0638,
+   "min_interatomic_A": 1.917,
+   "reconstructed": false
+  },
+  "Orb-v3|sheared|A_N": {
+   "max_disp_A": 1.8774,
+   "mean_disp_A": 0.1339,
+   "min_interatomic_A": 1.2874,
+   "reconstructed": true
+  },
+  "Orb-v3|sheared|A_Cr": {
+   "max_disp_A": 1.0961,
+   "mean_disp_A": 0.0953,
+   "min_interatomic_A": 1.8648,
+   "reconstructed": true
+  },
+  "Orb-v3|sheared|I_N": {
+   "max_disp_A": 0.5432,
+   "mean_disp_A": 0.0863,
+   "min_interatomic_A": 1.8377,
+   "reconstructed": false
+  },
+  "GRACE-2L-OMAT|cubic|V_N": {
+   "max_disp_A": 0.1288,
+   "mean_disp_A": 0.0348,
+   "min_interatomic_A": 2.0213,
+   "reconstructed": false
+  },
+  "GRACE-2L-OMAT|cubic|V_Cr": {
+   "max_disp_A": 0.1371,
+   "mean_disp_A": 0.0419,
+   "min_interatomic_A": 1.9785,
+   "reconstructed": false
+  },
+  "GRACE-2L-OMAT|cubic|A_N": {
+   "max_disp_A": 0.0758,
+   "mean_disp_A": 0.0284,
+   "min_interatomic_A": 2.0129,
+   "reconstructed": false
+  },
+  "GRACE-2L-OMAT|cubic|A_Cr": {
+   "max_disp_A": 0.1703,
+   "mean_disp_A": 0.0434,
+   "min_interatomic_A": 1.8997,
+   "reconstructed": false
+  },
+  "GRACE-2L-OMAT|cubic|I_N": {
+   "max_disp_A": 0.4115,
+   "mean_disp_A": 0.0706,
+   "min_interatomic_A": 1.9072,
+   "reconstructed": false
+  },
+  "GRACE-2L-OMAT|sheared|V_N": {
+   "max_disp_A": 0.1254,
+   "mean_disp_A": 0.034,
+   "min_interatomic_A": 2.0215,
+   "reconstructed": false
+  },
+  "GRACE-2L-OMAT|sheared|V_Cr": {
+   "max_disp_A": 0.1391,
+   "mean_disp_A": 0.0419,
+   "min_interatomic_A": 1.9732,
+   "reconstructed": false
+  },
+  "GRACE-2L-OMAT|sheared|A_N": {
+   "max_disp_A": 0.1132,
+   "mean_disp_A": 0.0321,
+   "min_interatomic_A": 2.0027,
+   "reconstructed": false
+  },
+  "GRACE-2L-OMAT|sheared|A_Cr": {
+   "max_disp_A": 0.3212,
+   "mean_disp_A": 0.0838,
+   "min_interatomic_A": 1.8986,
+   "reconstructed": false
+  },
+  "GRACE-2L-OMAT|sheared|I_N": {
+   "max_disp_A": 0.7007,
+   "mean_disp_A": 0.1447,
+   "min_interatomic_A": 1.804,
+   "reconstructed": false
+  }
+ },
+ "flagged": [
+  {
+   "case": "CHGNet|cubic|A_Cr",
+   "max_disp_A": 1.2219
+  },
+  {
+   "case": "CHGNet|sheared|A_Cr",
+   "max_disp_A": 1.2155
+  },
+  {
+   "case": "SevenNet-0|cubic|A_N",
+   "max_disp_A": 1.3496
+  },
+  {
+   "case": "SevenNet-0|sheared|A_N",
+   "max_disp_A": 2.1363
+  },
+  {
+   "case": "M3GNet-MatPES|cubic|A_N",
+   "max_disp_A": 1.1492
+  },
+  {
+   "case": "M3GNet-MatPES|sheared|A_N",
+   "max_disp_A": 1.1206
+  },
+  {
+   "case": "MatterSim|sheared|A_N",
+   "max_disp_A": 1.1056
+  },
+  {
+   "case": "Orb-v3|cubic|A_N",
+   "max_disp_A": 2.172
+  },
+  {
+   "case": "Orb-v3|cubic|A_Cr",
+   "max_disp_A": 1.1208
+  },
+  {
+   "case": "Orb-v3|sheared|A_N",
+   "max_disp_A": 1.8774
+  },
+  {
+   "case": "Orb-v3|sheared|A_Cr",
+   "max_disp_A": 1.0961
+  }
+ ],
+ "clean_population_max_disp_A": {
+  "min": 0.0639,
+  "max": 0.7007,
+  "n": 59
+ }
+}

@@ -1,0 +1,10 @@
+property,detail,value,unit,method,note,material,source,uMLIP_observable
+ordering_energy,FM minus AFM-II(rhomb),45.5,meV/atom,HSE06,mHDNNP 45.8; both from Eckhoff Fig. 2 discussion,MnO,eckhoffHighdimensionalNeuralNetwork2021,yes
+distortion_energy,cubic AFM-II minus rhombohedral AFM-II,2.1,meV/atom,HSE06,mHDNNP 1.9; the analogue of CrN's 8.0 meV/f.u. shear,MnO,eckhoffHighdimensionalNeuralNetwork2021,yes
+distortion_angle,AFM-II alpha,90.89,degree,HSE06,mHDNNP 90.77; exp 90.62 at 8 K,MnO,eckhoffHighdimensionalNeuralNetwork2021,yes
+lattice_constant,AFM-II a,4.434,Angstrom,HSE06,mHDNNP 4.433; exp 4.430,MnO,eckhoffHighdimensionalNeuralNetwork2021,yes
+lattice_constant,FM a (cubic),4.462,Angstrom,HSE06,mHDNNP 4.461,MnO,eckhoffHighdimensionalNeuralNetwork2021,yes
+lattice_constant,AFM-I a (tetragonal),4.459,Angstrom,HSE06,mHDNNP 4.461,MnO,eckhoffHighdimensionalNeuralNetwork2021,yes
+lattice_constant,AFM-I c (tetragonal),4.42,Angstrom,HSE06,mHDNNP 4.414,MnO,eckhoffHighdimensionalNeuralNetwork2021,yes
+spinflip_energy,one spin flip per 2x2x2 supercell,1.5,meV/atom,HSE06,mHDNNP 1.5; reduces the distortion by 0.11 deg (mHDNNP 0.09),MnO,eckhoffHighdimensionalNeuralNetwork2021,yes
+degeneracy,AFM-II vs second AFM order on a cubic lattice,0.0,meV/atom,HSE06,"exactly degenerate; same geometry, so spin-blind models cannot split them even in principle",MnO,eckhoffHighdimensionalNeuralNetwork2021,yes

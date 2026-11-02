@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use these data or code, please cite the archived release."
+title: "Universal machine-learning interatomic potentials on antiferromagnetic CrN and MnO: reference data, structures, model outputs and analysis code"
+authors:
+  - family-names: Rojas
+    given-names: Tomas
+    affiliation: "Universidad de Costa Rica"
+license: CC-BY-4.0
+doi: 10.5281/zenodo.23864936
+version: v1.0.1
+date-released: 2026-11-01
+keywords:
+  - universal interatomic potentials
+  - machine-learning interatomic potentials
+  - antiferromagnetism
+  - magnetostructural coupling
+  - CrN
+  - MnO

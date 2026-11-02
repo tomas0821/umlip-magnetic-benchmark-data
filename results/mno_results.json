@@ -1,0 +1,482 @@
+{
+ "MACE-MP-0": {
+  "phase_probe": {
+   "energies_meV_per_atom": {
+    "MnO_FM_cubic": -7792.920032,
+    "MnO_AFM1_tetra": -7788.652791,
+    "MnO_AFM2_rhomb": -7783.834063,
+    "MnO_AFM2_cubic_seed": -7785.16325,
+    "MnO_AFM2_rhomb_exp": -7783.183449
+   },
+   "ordering_FM_minus_AFM2": -9.086,
+   "distortion_cubic_minus_rhomb": -1.3292,
+   "DFT_ordering": 45.5,
+   "DFT_distortion": 2.1
+  },
+  "symmetry_retention": {
+   "MnO_AFM2_rhomb": {
+    "a": 4.5247,
+    "b": 4.5247,
+    "c": 4.5247,
+    "alpha": 90.0216,
+    "beta": 90.0216,
+    "gamma": 90.0216,
+    "max_angle_deviation_deg": 0.0216,
+    "c_over_a": 1.0,
+    "volume_A3": 92.6311,
+    "E_meV_per_atom": -7799.991538,
+    "converged": true
+   },
+   "MnO_AFM1_tetra": {
+    "a": 4.5256,
+    "b": 4.5256,
+    "c": 4.5225,
+    "alpha": 90.0,
+    "beta": 90.0,
+    "gamma": 90.0,
+    "max_angle_deviation_deg": 0.0,
+    "c_over_a": 0.99932,
+    "volume_A3": 92.6267,
+    "E_meV_per_atom": -7799.991645,
+    "converged": true
+   },
+   "MnO_FM_cubic": {
+    "a": 4.5244,
+    "b": 4.5244,
+    "c": 4.5244,
+    "alpha": 90.0,
+    "beta": 90.0,
+    "gamma": 90.0,
+    "max_angle_deviation_deg": 0.0,
+    "c_over_a": 1.0,
+    "volume_A3": 92.6167,
+    "E_meV_per_atom": -7799.992698,
+    "converged": true
+   },
+   "_retains_rhombohedral": false,
+   "_alpha_DFT": 90.89,
+   "_verdict": "COLLAPSES to cubic - magnetostructural coupling absent"
+  },
+  "cubic_eos": {
+   "a_grid": [
+    4.3,
+    4.325,
+    4.35,
+    4.375,
+    4.4,
+    4.425,
+    4.45,
+    4.475,
+    4.5,
+    4.525,
+    4.55,
+    4.575,
+    4.6
+   ],
+   "E_meV_per_atom": [
+    -7710.421933,
+    -7729.242844,
+    -7745.687623,
+    -7759.938749,
+    -7772.071073,
+    -7782.084624,
+    -7789.936302,
+    -7795.567827,
+    -7798.928489,
+    -7799.991293,
+    -7798.761097,
+    -7795.274307,
+    -7789.591614
+   ],
+   "a_eq_cubic_A": 4.5241,
+   "E_eq_meV_per_atom": -7799.99282,
+   "a_eq_at_grid_edge": false,
+   "DFT_a_AFM2": 4.434,
+   "DFT_a_FM": 4.462
+  }
+ },
+ "SevenNet-0": {
+  "phase_probe": {
+   "energies_meV_per_atom": {
+    "MnO_FM_cubic": -7829.382896,
+    "MnO_AFM1_tetra": -7826.274395,
+    "MnO_AFM2_rhomb": -7822.449684,
+    "MnO_AFM2_cubic_seed": -7823.616028,
+    "MnO_AFM2_rhomb_exp": -7822.013855
+   },
+   "ordering_FM_minus_AFM2": -6.9332,
+   "distortion_cubic_minus_rhomb": -1.1663,
+   "DFT_ordering": 45.5,
+   "DFT_distortion": 2.1
+  },
+  "symmetry_retention": {
+   "MnO_AFM2_rhomb": {
+    "a": 4.505,
+    "b": 4.505,
+    "c": 4.505,
+    "alpha": 89.9701,
+    "beta": 89.9701,
+    "gamma": 89.9701,
+    "max_angle_deviation_deg": 0.0299,
+    "c_over_a": 1.0,
+    "volume_A3": 91.4304,
+    "E_meV_per_atom": -7832.855701,
+    "converged": true
+   },
+   "MnO_AFM1_tetra": {
+    "a": 4.5073,
+    "b": 4.5073,
+    "c": 4.5043,
+    "alpha": 90.0,
+    "beta": 90.0,
+    "gamma": 90.0,
+    "max_angle_deviation_deg": 0.0,
+    "c_over_a": 0.99934,
+    "volume_A3": 91.5086,
+    "E_meV_per_atom": -7832.856178,
+    "converged": true
+   },
+   "MnO_FM_cubic": {
+    "a": 4.5062,
+    "b": 4.5062,
+    "c": 4.5062,
+    "alpha": 90.0,
+    "beta": 90.0,
+    "gamma": 90.0,
+    "max_angle_deviation_deg": 0.0,
+    "c_over_a": 1.0,
+    "volume_A3": 91.5019,
+    "E_meV_per_atom": -7832.857132,
+    "converged": true
+   },
+   "_retains_rhombohedral": false,
+   "_alpha_DFT": 90.89,
+   "_verdict": "COLLAPSES to cubic - magnetostructural coupling absent"
+  },
+  "cubic_eos": {
+   "a_grid": [
+    4.3,
+    4.325,
+    4.35,
+    4.375,
+    4.4,
+    4.425,
+    4.45,
+    4.475,
+    4.5,
+    4.525,
+    4.55,
+    4.575,
+    4.6
+   ],
+   "E_meV_per_atom": [
+    -7734.331131,
+    -7763.969421,
+    -7785.717964,
+    -7801.436424,
+    -7812.839508,
+    -7821.197033,
+    -7827.231407,
+    -7831.155777,
+    -7832.802773,
+    -7832.204819,
+    -7829.408169,
+    -7824.347019,
+    -7816.933632
+   ],
+   "a_eq_cubic_A": 4.5058,
+   "E_eq_meV_per_atom": -7832.864048,
+   "a_eq_at_grid_edge": false,
+   "DFT_a_AFM2": 4.434,
+   "DFT_a_FM": 4.462
+  }
+ },
+ "M3GNet-MatPES": {
+  "phase_probe": {
+   "energies_meV_per_atom": {
+    "MnO_FM_cubic": -8207.992554,
+    "MnO_AFM1_tetra": -8208.720207,
+    "MnO_AFM2_rhomb": -8208.040237,
+    "MnO_AFM2_cubic_seed": -8208.80127,
+    "MnO_AFM2_rhomb_exp": -8208.381653
+   },
+   "ordering_FM_minus_AFM2": 0.0477,
+   "distortion_cubic_minus_rhomb": -0.761,
+   "DFT_ordering": 45.5,
+   "DFT_distortion": 2.1
+  },
+  "symmetry_retention": {
+   "MnO_AFM2_rhomb": {
+    "a": 4.4387,
+    "b": 4.4376,
+    "c": 4.4397,
+    "alpha": 89.9996,
+    "beta": 89.9985,
+    "gamma": 89.9995,
+    "max_angle_deviation_deg": 0.0015,
+    "c_over_a": 1.00023,
+    "volume_A3": 87.45,
+    "E_meV_per_atom": -8208.795547,
+    "converged": false
+   },
+   "MnO_AFM1_tetra": {
+    "a": 4.4369,
+    "b": 4.439,
+    "c": 4.4404,
+    "alpha": 89.9983,
+    "beta": 89.997,
+    "gamma": 89.9982,
+    "max_angle_deviation_deg": 0.003,
+    "c_over_a": 1.00077,
+    "volume_A3": 87.4552,
+    "E_meV_per_atom": -8209.192276,
+    "converged": false
+   },
+   "MnO_FM_cubic": {
+    "a": 4.4379,
+    "b": 4.4372,
+    "c": 4.4412,
+    "alpha": 90.0,
+    "beta": 89.9996,
+    "gamma": 89.9989,
+    "max_angle_deviation_deg": 0.0011,
+    "c_over_a": 1.00074,
+    "volume_A3": 87.4553,
+    "E_meV_per_atom": -8208.928108,
+    "converged": false
+   },
+   "_retains_rhombohedral": false,
+   "_alpha_DFT": 90.89,
+   "_verdict": "COLLAPSES to cubic - magnetostructural coupling absent"
+  },
+  "cubic_eos": {
+   "a_grid": [
+    4.3,
+    4.325,
+    4.35,
+    4.375,
+    4.4,
+    4.425,
+    4.45,
+    4.475,
+    4.5,
+    4.525,
+    4.55,
+    4.575,
+    4.6
+   ],
+   "E_meV_per_atom": [
+    -8172.204971,
+    -8184.928894,
+    -8194.721222,
+    -8201.815605,
+    -8206.361771,
+    -8208.545685,
+    -8208.620071,
+    -8206.155777,
+    -8202.985764,
+    -8198.390961,
+    -8192.415237,
+    -8185.127258,
+    -8176.602364
+   ],
+   "a_eq_cubic_A": 4.4382,
+   "E_eq_meV_per_atom": -8208.901303,
+   "a_eq_at_grid_edge": false,
+   "DFT_a_AFM2": 4.434,
+   "DFT_a_FM": 4.462
+  }
+ },
+ "CHGNet": {
+  "phase_probe": {
+   "energies_meV_per_atom": {
+    "MnO_FM_cubic": -8977.45703125,
+    "MnO_AFM1_tetra": -8974.35546875,
+    "MnO_AFM2_rhomb": -8970.494140625,
+    "MnO_AFM2_cubic_seed": -8971.7265625,
+    "MnO_AFM2_rhomb_exp": -8970.11328125
+   },
+   "ordering_FM_minus_AFM2": -6.962900161743164,
+   "distortion_cubic_minus_rhomb": -1.2323999404907227,
+   "DFT_ordering": 45.5,
+   "DFT_distortion": 2.1
+  },
+  "symmetry_retention": {
+   "MnO_AFM2_rhomb": {
+    "a": 4.4971,
+    "b": 4.4971,
+    "c": 4.4971,
+    "alpha": 89.9675,
+    "beta": 89.9675,
+    "gamma": 89.9675,
+    "max_angle_deviation_deg": 0.0325,
+    "c_over_a": 1.0,
+    "volume_A3": 90.9462,
+    "E_meV_per_atom": -8979.8720703125,
+    "converged": true
+   },
+   "MnO_AFM1_tetra": {
+    "a": 4.5004,
+    "b": 4.5004,
+    "c": 4.4941,
+    "alpha": 90.0,
+    "beta": 90.0,
+    "gamma": 90.0,
+    "max_angle_deviation_deg": 0.0,
+    "c_over_a": 0.99861,
+    "volume_A3": 91.0231,
+    "E_meV_per_atom": -8979.8720703125,
+    "converged": true
+   },
+   "MnO_FM_cubic": {
+    "a": 4.4987,
+    "b": 4.4987,
+    "c": 4.4987,
+    "alpha": 90.0,
+    "beta": 90.0,
+    "gamma": 90.0,
+    "max_angle_deviation_deg": 0.0,
+    "c_over_a": 1.0,
+    "volume_A3": 91.0446,
+    "E_meV_per_atom": -8979.875,
+    "converged": true
+   },
+   "_retains_rhombohedral": false,
+   "_alpha_DFT": 90.89,
+   "_verdict": "COLLAPSES to cubic - magnetostructural coupling absent"
+  },
+  "cubic_eos": {
+   "a_grid": [
+    4.3,
+    4.325,
+    4.35,
+    4.375,
+    4.4,
+    4.425,
+    4.45,
+    4.475,
+    4.5,
+    4.525,
+    4.55,
+    4.575,
+    4.6
+   ],
+   "E_meV_per_atom": [
+    -8896.9345703125,
+    -8918.4794921875,
+    -8935.62890625,
+    -8950.3515625,
+    -8961.01953125,
+    -8969.3876953125,
+    -8975.3056640625,
+    -8979.0380859375,
+    -8979.87109375,
+    -8978.818359375,
+    -8975.982421875,
+    -8971.1708984375,
+    -8964.1552734375
+   ],
+   "a_eq_cubic_A": 4.4985,
+   "E_eq_meV_per_atom": -8979.874294,
+   "a_eq_at_grid_edge": false,
+   "DFT_a_AFM2": 4.434,
+   "DFT_a_FM": 4.462
+  }
+ },
+ "MatterSim": {
+  "phase_probe": {
+   "energies_meV_per_atom": {
+    "MnO_FM_cubic": -7818.85302734375,
+    "MnO_AFM1_tetra": -7813.66455078125,
+    "MnO_AFM2_rhomb": -7807.3740234375,
+    "MnO_AFM2_cubic_seed": -7809.3671875,
+    "MnO_AFM2_rhomb_exp": -7806.6865234375
+   },
+   "ordering_FM_minus_AFM2": -11.479000091552734,
+   "distortion_cubic_minus_rhomb": -1.9931999444961548,
+   "DFT_ordering": 45.5,
+   "DFT_distortion": 2.1
+  },
+  "symmetry_retention": {
+   "MnO_AFM2_rhomb": {
+    "a": 4.5152,
+    "b": 4.5152,
+    "c": 4.5152,
+    "alpha": 90.031,
+    "beta": 90.031,
+    "gamma": 90.031,
+    "max_angle_deviation_deg": 0.031,
+    "c_over_a": 1.0,
+    "volume_A3": 92.0505,
+    "E_meV_per_atom": -7825.673828125,
+    "converged": true
+   },
+   "MnO_AFM1_tetra": {
+    "a": 4.5157,
+    "b": 4.5157,
+    "c": 4.5157,
+    "alpha": 90.0,
+    "beta": 90.0,
+    "gamma": 90.0,
+    "max_angle_deviation_deg": 0.0,
+    "c_over_a": 1.00001,
+    "volume_A3": 92.0835,
+    "E_meV_per_atom": -7825.673828125,
+    "converged": true
+   },
+   "MnO_FM_cubic": {
+    "a": 4.5152,
+    "b": 4.5152,
+    "c": 4.5152,
+    "alpha": 90.0,
+    "beta": 90.0,
+    "gamma": 90.0,
+    "max_angle_deviation_deg": 0.0,
+    "c_over_a": 1.0,
+    "volume_A3": 92.051,
+    "E_meV_per_atom": -7825.6748046875,
+    "converged": true
+   },
+   "_retains_rhombohedral": false,
+   "_alpha_DFT": 90.89,
+   "_verdict": "COLLAPSES to cubic - magnetostructural coupling absent"
+  },
+  "cubic_eos": {
+   "a_grid": [
+    4.3,
+    4.325,
+    4.35,
+    4.375,
+    4.4,
+    4.425,
+    4.45,
+    4.475,
+    4.5,
+    4.525,
+    4.55,
+    4.575,
+    4.6
+   ],
+   "E_meV_per_atom": [
+    -7697.81298828125,
+    -7727.7021484375,
+    -7753.21533203125,
+    -7774.53857421875,
+    -7791.86572265625,
+    -7805.39013671875,
+    -7815.3134765625,
+    -7821.8310546875,
+    -7825.146484375,
+    -7825.447265625,
+    -7822.92822265625,
+    -7817.7646484375,
+    -7810.12841796875
+   ],
+   "a_eq_cubic_A": 4.5152,
+   "E_eq_meV_per_atom": -7825.665395,
+   "a_eq_at_grid_edge": false,
+   "DFT_a_AFM2": 4.434,
+   "DFT_a_FM": 4.462
+  }
+ }
+}

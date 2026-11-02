@@ -1,0 +1,302 @@
+{
+ "MACE-MP-0": {
+  "a_eq_A": 4.154,
+  "C44_GPa": 35.0,
+  "noise_floor_meV_per_fu": 0.0,
+  "prediction_shear": "stable",
+  "prediction_resolution": "reproducible",
+  "shear_stability": {
+   "control_90deg": {
+    "start_gamma": 90.0,
+    "final_angles": [
+     90.0,
+     90.0,
+     90.0
+    ],
+    "final_gamma": 90.0,
+    "returned_to_cubic": true,
+    "final_volume_A3": 71.61306007429599
+   },
+   "perturbed_89deg": {
+    "start_gamma": 89.0,
+    "final_angles": [
+     90.0,
+     90.0,
+     89.841
+    ],
+    "final_gamma": 89.841,
+    "returned_to_cubic": true,
+    "final_volume_A3": 71.54323716142655
+   },
+   "perturbed_91deg": {
+    "start_gamma": 91.0,
+    "final_angles": [
+     90.0,
+     90.0,
+     90.159
+    ],
+    "final_gamma": 90.159,
+    "returned_to_cubic": true,
+    "final_volume_A3": 71.54323716142616
+   },
+   "_verdict": "STABLE - undoes the perturbation",
+   "_max_departure_deg": 0.159
+  },
+  "mev_resolution": {
+   "n_trials": 8,
+   "rattle_amplitude_A": 0.01,
+   "energies_eV": [
+    -596.004145,
+    -596.004155,
+    -596.003996,
+    -596.004267,
+    -596.004289,
+    -596.003902,
+    -596.003843,
+    -596.004365
+   ],
+   "spread_meV_per_fu": 0.0163,
+   "std_meV_per_fu": 0.0055
+  }
+ },
+ "CHGNet": {
+  "a_eq_A": 4.16,
+  "C44_GPa": 28.4,
+  "noise_floor_meV_per_fu": 0.0057,
+  "prediction_shear": "stable",
+  "prediction_resolution": "reproducible",
+  "shear_stability": {
+   "control_90deg": {
+    "start_gamma": 90.0,
+    "final_angles": [
+     90.0,
+     90.0,
+     90.0
+    ],
+    "final_gamma": 90.0,
+    "returned_to_cubic": true,
+    "final_volume_A3": 71.99129600000003
+   },
+   "perturbed_89deg": {
+    "start_gamma": 89.0,
+    "final_angles": [
+     90.001,
+     90.001,
+     89.802
+    ],
+    "final_gamma": 89.802,
+    "returned_to_cubic": true,
+    "final_volume_A3": 71.8840374715598
+   },
+   "perturbed_91deg": {
+    "start_gamma": 91.0,
+    "final_angles": [
+     89.999,
+     90.004,
+     90.18
+    ],
+    "final_gamma": 90.18,
+    "returned_to_cubic": true,
+    "final_volume_A3": 71.80757007263007
+   },
+   "_verdict": "STABLE - undoes the perturbation",
+   "_max_departure_deg": 0.198
+  },
+  "mev_resolution": {
+   "n_trials": 8,
+   "rattle_amplitude_A": 0.01,
+   "energies_eV": [
+    -610.664612,
+    -610.665588,
+    -610.665955,
+    -610.666565,
+    -610.666504,
+    -610.66626,
+    -610.667236,
+    -610.666931
+   ],
+   "spread_meV_per_fu": 0.082,
+   "std_meV_per_fu": 0.0242
+  }
+ },
+ "SevenNet-0": {
+  "a_eq_A": 4.141,
+  "C44_GPa": -34.2,
+  "noise_floor_meV_per_fu": 0.0,
+  "prediction_shear": "unstable",
+  "prediction_resolution": "reproducible",
+  "shear_stability": {
+   "control_90deg": {
+    "start_gamma": 90.0,
+    "final_angles": [
+     90.0,
+     90.0,
+     90.0
+    ],
+    "final_gamma": 90.0,
+    "returned_to_cubic": true,
+    "final_volume_A3": 71.82374133824764
+   },
+   "perturbed_89deg": {
+    "start_gamma": 89.0,
+    "final_angles": [
+     90.0,
+     90.0,
+     83.231
+    ],
+    "final_gamma": 83.231,
+    "returned_to_cubic": false,
+    "final_volume_A3": 70.33874501555698
+   },
+   "perturbed_91deg": {
+    "start_gamma": 91.0,
+    "final_angles": [
+     90.0,
+     90.0,
+     96.769
+    ],
+    "final_gamma": 96.769,
+    "returned_to_cubic": false,
+    "final_volume_A3": 70.33874331369434
+   },
+   "_verdict": "UNSTABLE - runs away from cubic",
+   "_max_departure_deg": 6.769
+  },
+  "mev_resolution": {
+   "n_trials": 8,
+   "rattle_amplitude_A": 0.01,
+   "energies_eV": [
+    -598.743103,
+    -598.734192,
+    -598.740417,
+    -598.733337,
+    -598.729126,
+    -598.734253,
+    -598.162354,
+    -598.730103
+   ],
+   "spread_meV_per_fu": 18.1484,
+   "std_meV_per_fu": 5.9192
+  }
+ },
+ "M3GNet-MatPES": {
+  "a_eq_A": 4.158,
+  "C44_GPa": -67.4,
+  "noise_floor_meV_per_fu": 1.9989,
+  "prediction_shear": "unstable",
+  "prediction_resolution": "scatters",
+  "shear_stability": {
+   "control_90deg": {
+    "start_gamma": 90.0,
+    "final_angles": [
+     89.048,
+     91.152,
+     92.619
+    ],
+    "final_gamma": 92.619,
+    "returned_to_cubic": false,
+    "final_volume_A3": 71.97051102281284
+   },
+   "perturbed_89deg": {
+    "start_gamma": 89.0,
+    "final_angles": [
+     84.765,
+     90.712,
+     94.413
+    ],
+    "final_gamma": 94.413,
+    "returned_to_cubic": false,
+    "final_volume_A3": 74.1933851471988
+   },
+   "perturbed_91deg": {
+    "start_gamma": 91.0,
+    "final_angles": [
+     92.219,
+     92.364,
+     93.884
+    ],
+    "final_gamma": 93.884,
+    "returned_to_cubic": false,
+    "final_volume_A3": 71.79029219615614
+   },
+   "_verdict": "UNSTABLE - runs away from cubic",
+   "_max_departure_deg": 4.413
+  },
+  "mev_resolution": {
+   "n_trials": 8,
+   "rattle_amplitude_A": 0.01,
+   "energies_eV": [
+    -598.702515,
+    -598.704956,
+    -598.71814,
+    -598.712769,
+    -598.682007,
+    -598.706787,
+    -598.695435,
+    -598.688293
+   ],
+   "spread_meV_per_fu": 1.1292,
+   "std_meV_per_fu": 0.3556
+  }
+ },
+ "MatterSim": {
+  "a_eq_A": 4.163,
+  "C44_GPa": 73.6,
+  "noise_floor_meV_per_fu": 0.0019,
+  "prediction_shear": "stable",
+  "prediction_resolution": "reproducible",
+  "shear_stability": {
+   "control_90deg": {
+    "start_gamma": 90.0,
+    "final_angles": [
+     90.0,
+     90.0,
+     90.0
+    ],
+    "final_gamma": 90.0,
+    "returned_to_cubic": true,
+    "final_volume_A3": 71.89572888354297
+   },
+   "perturbed_89deg": {
+    "start_gamma": 89.0,
+    "final_angles": [
+     90.0,
+     90.0,
+     90.05
+    ],
+    "final_gamma": 90.05,
+    "returned_to_cubic": true,
+    "final_volume_A3": 71.83711140664741
+   },
+   "perturbed_91deg": {
+    "start_gamma": 91.0,
+    "final_angles": [
+     90.0,
+     90.0,
+     89.95
+    ],
+    "final_gamma": 89.95,
+    "returned_to_cubic": true,
+    "final_volume_A3": 71.83711433920666
+   },
+   "_verdict": "STABLE - undoes the perturbation",
+   "_max_departure_deg": 0.05
+  },
+  "mev_resolution": {
+   "n_trials": 8,
+   "rattle_amplitude_A": 0.01,
+   "energies_eV": [
+    -598.710022,
+    -598.710205,
+    -598.710144,
+    -598.710205,
+    -598.710083,
+    -598.710083,
+    -598.710022,
+    -598.710022
+   ],
+   "spread_meV_per_fu": 0.0057,
+   "std_meV_per_fu": 0.0023
+  }
+ }
+}

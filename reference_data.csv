@@ -1,0 +1,54 @@
+property,material,model,detail,value,unit,sign_convention,uMLIP_observable,source,source_location,method,U_eV,J_eV,status
+ordering_energy,CrN,cubic AFM2[110],E minus E(orth AFM2[110]),8.0,meV/f.u.,positive = above ground state,yes,rojasStrainFieldsElectronic2017,Sec. II,LSDA+U (QE; 30 Ry; 8x8x8 k),3,0.94,extracted
+ordering_energy,CrN,cubic AFM1[010],E minus E(orth AFM2[110]),15,meV/f.u.,positive = above ground state,yes,rojasStrainFieldsElectronic2017,Sec. II,LSDA+U (QE; 30 Ry; 8x8x8 k),5,0.94,extracted
+ordering_energy,CrN,orthorhombic AFM1[010],E minus E(orth AFM2[110]),30,meV/f.u.,positive = above ground state,yes,rojasStrainFieldsElectronic2017,Sec. II,LSDA+U (QE; 30 Ry; 8x8x8 k),5,0.94,extracted
+ground_state,CrN,orthorhombic AFM2[110],lowest-energy configuration (Pnma),0,meV/f.u.,reference zero,yes,rojasStrainFieldsElectronic2017,Sec. II,LSDA+U (QE; 30 Ry; 8x8x8 k),3,0.94,extracted
+lattice_constant,CrN,cubic AFM1[010],a_c,4.14,Angstrom,,yes,rojasStrainFieldsElectronic2017,Sec. II (Fig. 2 discussion),LSDA+U (QE),5,0.94,extracted
+distortion_angle,CrN,orthorhombic AFM2[110],alpha (a=2*a_c*sin(alpha/2); b=a_c*cos(alpha/2)),88,degree,,yes,rojasStrainFieldsElectronic2017,Sec. II (Fig. 2 discussion),LSDA+U (QE),3,0.94,extracted
+elastic_constant,CrN,cubic AFM1[010],C11,677,GPa,,yes,rojasStrainFieldsElectronic2017,Sec. III A,LSDA+U (QE; Murnaghan EOS fit),5,0.94,extracted
+elastic_constant,CrN,cubic AFM1[010],C12,87.7,GPa,,yes,rojasStrainFieldsElectronic2017,Sec. III A,LSDA+U (QE),5,0.94,extracted
+elastic_constant,CrN,cubic AFM1[010],C44,155,GPa,,yes,rojasStrainFieldsElectronic2017,Sec. III A,LSDA+U (QE; trigonal strain),5,0.94,extracted
+bulk_modulus,CrN,cubic AFM1[010],B,289,GPa,,yes,rojasStrainFieldsElectronic2017,Sec. III A,LSDA+U (QE; Murnaghan EOS fit),5,0.94,extracted
+formation_energy,CrN,cubic AFM1[010],V_N q=0,2.48,eV,E_F=0 at VBM; reservoirs: N2 molecule + AFM bulk Cr,yes,rojasEnergeticsElectronicStructure2018,Sec. III A + Fig. 2,LSDA+U (QE; 64-atom 2x2x2; 410 eV; 4x4x4 k; Freysoldt correction),5,0.94,extracted
+formation_energy,CrN,cubic AFM1[010],V_N q=-1,2.63,eV,E_F=0 at VBM,no (charged defect),rojasEnergeticsElectronicStructure2018,Sec. III A + Fig. 2,LSDA+U (QE; Freysoldt correction),5,0.94,extracted
+formation_energy,CrN,cubic AFM1[010],V_N q=+1,2.94,eV,E_F=0 at VBM,no (charged defect),rojasEnergeticsElectronicStructure2018,Sec. III A + Fig. 2,LSDA+U (QE; Freysoldt correction),5,0.94,extracted
+transition_energy,CrN,cubic AFM1[010],V_N epsilon(-1/0),-0.147,eV,relative to VBM,no (charged defect),rojasEnergeticsElectronicStructure2018,Sec. III A + Fig. 2 caption,LSDA+U (QE),5,0.94,extracted
+transition_energy,CrN,cubic AFM1[010],V_N epsilon(0/+1),0.46,eV,relative to VBM,no (charged defect),rojasEnergeticsElectronicStructure2018,Sec. III A + Fig. 2 caption,LSDA+U (QE),5,0.94,extracted
+formation_energy,CrN,cubic AFM1[010],V_Cr q=0,6.90,eV,reservoirs: N2 + AFM bulk Cr,yes,rojasEnergeticsElectronicStructure2018,Sec. III A,LSDA+U (QE),5,0.94,extracted
+formation_energy,CrN,cubic AFM1[010],A_N q=0 (published text prints 'A_Cr' - author-confirmed typo 2026-08-02; Sec. II + Table I consistent with A_N),10.05,eV,reservoirs: N2 + AFM bulk Cr,yes,rojasEnergeticsElectronicStructure2018,Sec. III A,LSDA+U (QE),5,0.94,extracted - identity resolved
+formation_energy,CrN,cubic AFM1[010],I_N q=0,12.01,eV,reservoirs: N2 + AFM bulk Cr,yes,rojasEnergeticsElectronicStructure2018,Sec. III A,LSDA+U (QE),5,0.94,extracted
+formation_energy,CrN,orthorhombic AFM2[110],V_N q=0,2.13,eV,reservoirs: N2 + AFM bulk Cr,yes,rojasEnergeticsElectronicStructure2018,Sec. III A,LSDA+U (QE),3,0.94,extracted
+formation_energy,CrN,orthorhombic AFM2[110],V_Cr q=0,5.72,eV,reservoirs: N2 + AFM bulk Cr,yes,rojasEnergeticsElectronicStructure2018,Sec. III A,LSDA+U (QE),3,0.94,extracted
+formation_energy,CrN,orthorhombic AFM2[110],A_Cr q=0,9.7,eV,reservoirs: N2 + AFM bulk Cr,yes,rojasEnergeticsElectronicStructure2018,Sec. III A,LSDA+U (QE),3,0.94,extracted
+formation_energy,CrN,orthorhombic AFM2[110],A_N q=0,10.14,eV,reservoirs: N2 + AFM bulk Cr,yes,rojasEnergeticsElectronicStructure2018,Sec. III A,LSDA+U (QE),3,0.94,extracted
+convergence_check,CrN,orthorhombic AFM2[110],V_N formation energy 2x2x3 vs 2x2x2 supercell,0.13,eV,agreement within,context,rojasEnergeticsElectronicStructure2018,Sec. III A,LSDA+U (QE),3,0.94,extracted
+displacement,CrN,cubic AFM1[010],V_N neighbor Cr(up),0.005,Angstrom,positive = away from defect,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE; force conv 1e-4 a.u.),5,0.94,extracted
+displacement,CrN,cubic AFM1[010],V_N neighbor Cr(down),-0.001,Angstrom,positive = away from defect,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),5,0.94,extracted
+displacement,CrN,cubic AFM1[010],V_N neighbor N,-0.002,Angstrom,positive = away from defect,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),5,0.94,extracted
+displacement,CrN,cubic AFM1[010],V_Cr(up) neighbor Cr(up),0.00,Angstrom,positive = away from defect,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),5,0.94,extracted
+displacement,CrN,cubic AFM1[010],V_Cr(up) neighbor Cr(down),-0.010,Angstrom,positive = away from defect,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),5,0.94,extracted
+displacement,CrN,cubic AFM1[010],V_Cr(up) neighbor N,-0.082,Angstrom,positive = away from defect,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),5,0.94,extracted
+displacement,CrN,cubic AFM1[010],A_N neighbor Cr(up),-0.03,Angstrom,positive = away from defect,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),5,0.94,extracted
+displacement,CrN,cubic AFM1[010],A_N neighbor Cr(down),-0.02,Angstrom,positive = away from defect,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),5,0.94,extracted
+displacement,CrN,cubic AFM1[010],A_N neighbor N,-0.171,Angstrom,positive = away from defect,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),5,0.94,extracted
+displacement,CrN,cubic AFM1[010],I_N neighbor Cr(up),0.032,Angstrom,positive = away from defect,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),5,0.94,extracted
+displacement,CrN,cubic AFM1[010],I_N neighbor Cr(down),0.032,Angstrom,positive = away from defect,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),5,0.94,extracted
+displacement,CrN,cubic AFM1[010],I_N neighbor N,0.221,Angstrom,positive = away from defect,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),5,0.94,extracted
+displacement,CrN,orthorhombic AFM2[110],V_N neighbor Cr(up),0.01,Angstrom,positive = away from defect,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),3,0.94,extracted
+displacement,CrN,orthorhombic AFM2[110],V_N neighbor Cr(down),"-0.002; 0.03",Angstrom,two inequivalent neighbors,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),3,0.94,extracted
+displacement,CrN,orthorhombic AFM2[110],V_N neighbor N,-0.01,Angstrom,positive = away from defect,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),3,0.94,extracted
+displacement,CrN,orthorhombic AFM2[110],V_Cr neighbor Cr(up),-0.07,Angstrom,positive = away from defect,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),3,0.94,extracted
+displacement,CrN,orthorhombic AFM2[110],V_Cr neighbor Cr(down),-0.07,Angstrom,positive = away from defect,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),3,0.94,extracted
+displacement,CrN,orthorhombic AFM2[110],V_Cr neighbor N,"0.07; 0.08",Angstrom,two inequivalent neighbors,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),3,0.94,extracted
+displacement,CrN,orthorhombic AFM2[110],A_N neighbor Cr(up),"-0.298; 0.055",Angstrom,two inequivalent neighbors,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),3,0.94,extracted
+displacement,CrN,orthorhombic AFM2[110],A_N neighbor Cr(down),-0.031,Angstrom,positive = away from defect,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),3,0.94,extracted
+displacement,CrN,orthorhombic AFM2[110],A_N neighbor N,-0.022,Angstrom,positive = away from defect,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),3,0.94,extracted
+displacement,CrN,orthorhombic AFM2[110],A_Cr neighbor Cr(up),0.309,Angstrom,positive = away from defect,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),3,0.94,extracted
+displacement,CrN,orthorhombic AFM2[110],A_Cr neighbor Cr(down),0.085,Angstrom,positive = away from defect,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),3,0.94,extracted
+displacement,CrN,orthorhombic AFM2[110],A_Cr neighbor N,-0.11,Angstrom,positive = away from defect,yes,rojasEnergeticsElectronicStructure2018,Table I,LSDA+U (QE),3,0.94,extracted
+magnetic_moment,CrN,pristine crystal,Cr site moment,2.90,mu_B,,magmom (CHGNet-class only),rojasEnergeticsElectronicStructure2018,Sec. III D,LSDA+U (QE),5,0.94,extracted
+magnetic_moment,CrN,cubic AFM1[010],V_N supercell net moment,0.69,mu_B,net moment of 64-atom supercell,magmom (CHGNet-class only),rojasEnergeticsElectronicStructure2018,Sec. III D,LSDA+U (QE),5,0.94,extracted
+magnetic_moment,CrN,cubic AFM1[010],V_Cr supercell net moment,1.66,mu_B,net moment of 64-atom supercell,magmom (CHGNet-class only),rojasEnergeticsElectronicStructure2018,Sec. III D,LSDA+U (QE),5,0.94,extracted
+magnetic_moment,CrN,cubic AFM1[010],I_N supercell net moment,0.0,mu_B,net moment of 64-atom supercell,magmom (CHGNet-class only),rojasEnergeticsElectronicStructure2018,Sec. III D,LSDA+U (QE),5,0.94,extracted
+magnetic_moment,CrN,orthorhombic AFM2[110],V_N supercell net moment,0.3,mu_B,net moment of 64-atom supercell,magmom (CHGNet-class only),rojasEnergeticsElectronicStructure2018,Sec. III D,LSDA+U (QE),3,0.94,extracted
+magnetic_moment,CrN,orthorhombic AFM2[110],V_Cr supercell net moment,2.98,mu_B,net moment of 64-atom supercell,magmom (CHGNet-class only),rojasEnergeticsElectronicStructure2018,Sec. III D,LSDA+U (QE),3,0.94,extracted

@@ -1,0 +1,34 @@
+{
+ "Orb-v3": {
+  "force_noise_cubic_conv_eV_per_A": 0.01213,
+  "force_noise_cubic_2x2x2_V_N_eV_per_A": 0.01104,
+  "residual_fmax_eV_per_A": {
+   "cubic|V_N": 0.0094,
+   "cubic|V_Cr": 0.00966,
+   "cubic|A_N": 0.0092,
+   "cubic|A_Cr": 0.00493,
+   "cubic|I_N": 0.00906,
+   "sheared|V_N": 0.00881,
+   "sheared|V_Cr": 0.0088,
+   "sheared|A_N": 0.0068,
+   "sheared|A_Cr": 0.00968,
+   "sheared|I_N": 0.00772
+  }
+ },
+ "GRACE-2L-OMAT": {
+  "force_noise_cubic_conv_eV_per_A": 0.0,
+  "force_noise_cubic_2x2x2_V_N_eV_per_A": 0.0,
+  "residual_fmax_eV_per_A": {
+   "cubic|V_N": 0.00689,
+   "cubic|V_Cr": 0.0096,
+   "cubic|A_N": 0.00995,
+   "cubic|A_Cr": 0.00601,
+   "cubic|I_N": 0.00806,
+   "sheared|V_N": 0.007,
+   "sheared|V_Cr": 0.00899,
+   "sheared|A_N": 0.00911,
+   "sheared|A_Cr": 0.00796,
+   "sheared|I_N": 0.00823
+  }
+ }
+}

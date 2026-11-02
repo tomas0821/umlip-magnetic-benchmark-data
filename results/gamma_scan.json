@@ -1,0 +1,71 @@
+{
+ "angles_deg": [
+  82,
+  84,
+  86,
+  88,
+  90,
+  92,
+  94,
+  96,
+  98
+ ],
+ "dE_meV_per_fu_vs_90": {
+  "MACE-MP-0": [
+   38.32,
+   21.04,
+   9.24,
+   2.3,
+   0.0,
+   2.3,
+   9.24,
+   21.04,
+   38.32
+  ],
+  "CHGNet": [
+   34.86,
+   17.89,
+   7.18,
+   1.63,
+   0.0,
+   1.63,
+   7.18,
+   17.89,
+   34.86
+  ],
+  "SevenNet-0": [
+   -11.87,
+   -14.32,
+   -8.42,
+   -2.18,
+   0.0,
+   -2.18,
+   -8.42,
+   -14.32,
+   -11.87
+  ],
+  "M3GNet-MatPES": [
+   4.44,
+   -0.93,
+   0.63,
+   -0.75,
+   0.0,
+   0.69,
+   -0.12,
+   -1.44,
+   4.23
+  ],
+  "MatterSim": [
+   73.96,
+   42.1,
+   18.98,
+   4.79,
+   0.0,
+   4.79,
+   18.98,
+   42.1,
+   73.96
+  ]
+ },
+ "note": "single-points, idealized shear of conventional cell a=4.14 A; E(gamma)=E(180-gamma) required by mirror symmetry - violation measures PES noise floor. DFT reference: distorted (88 deg) 8.0 meV/f.u. BELOW cubic."
+}

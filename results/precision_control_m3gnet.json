@@ -1,0 +1,17 @@
+{
+ "float32": {
+  "repeat": 0.0,
+  "rotation": 1.6937255859375,
+  "translation": 1.8444061279296875,
+  "mirror": 0.5321502685546875,
+  "noise_floor_meV_per_fu": 1.8444061279296875
+ },
+ "float64": {
+  "repeat": 0.0,
+  "rotation": 1.6960471401361588,
+  "translation": 1.8437386179428472,
+  "mirror": 0.5333962999642949,
+  "noise_floor_meV_per_fu": 1.8437386179428472
+ },
+ "ratio_f32_over_f64": 1.0003620415498944
+}

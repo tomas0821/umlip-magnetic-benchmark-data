@@ -1,0 +1,110 @@
+{
+ "model": "M3GNet-MatPES",
+ "fmax": 0.01,
+ "steps_cap": 2000,
+ "reservoirs": {
+  "E_N2": -16.540189743041992,
+  "mu_N": -8.270094871520996,
+  "mu_Cr": -9.512541770935059,
+  "N2_converged": true,
+  "N2_steps": 10,
+  "N2_opt": "FIRE",
+  "Cr_converged": true,
+  "Cr_steps": 2013,
+  "Cr_opt": "FIRE+LBFGS"
+ },
+ "phase_fullrelax": {
+  "angles_deg": [
+   86.005,
+   91.48,
+   91.818
+  ],
+  "converged": false,
+  "steps": 4000,
+  "opt": "FIRE+LBFGS"
+ },
+ "defects": {
+  "cubic": {
+   "E_pristine": -598.6987915039062,
+   "pristine_converged": true,
+   "pristine_steps": 77,
+   "pristine_opt": "FIRE",
+   "V_N": {
+    "E": -589.4683837890625,
+    "E_f_eV": 0.9603128433227539,
+    "converged": true,
+    "steps": 137,
+    "opt": "FIRE"
+   },
+   "V_Cr": {
+    "E": -588.1124267578125,
+    "E_f_eV": 1.0738229751586914,
+    "converged": true,
+    "steps": 2150,
+    "opt": "FIRE+LBFGS"
+   },
+   "A_N": {
+    "E": -594.1840209960938,
+    "E_f_eV": 3.2723236083984375,
+    "converged": true,
+    "steps": 188,
+    "opt": "FIRE"
+   },
+   "A_Cr": {
+    "E": -597.4918212890625,
+    "E_f_eV": 2.4494171142578125,
+    "converged": false,
+    "steps": 4000,
+    "opt": "FIRE+LBFGS"
+   },
+   "I_N": {
+    "E": -604.236083984375,
+    "E_f_eV": 2.732802391052246,
+    "converged": true,
+    "steps": 62,
+    "opt": "FIRE"
+   }
+  },
+  "sheared": {
+   "E_pristine": -598.7056884765625,
+   "pristine_converged": true,
+   "pristine_steps": 99,
+   "pristine_opt": "FIRE",
+   "V_N": {
+    "E": -589.42626953125,
+    "E_f_eV": 1.009324073791504,
+    "converged": true,
+    "steps": 179,
+    "opt": "FIRE"
+   },
+   "V_Cr": {
+    "E": -588.0863037109375,
+    "E_f_eV": 1.1068429946899414,
+    "converged": true,
+    "steps": 208,
+    "opt": "FIRE"
+   },
+   "A_N": {
+    "E": -594.3215942382812,
+    "E_f_eV": 3.1416473388671875,
+    "converged": true,
+    "steps": 160,
+    "opt": "FIRE"
+   },
+   "A_Cr": {
+    "E": -597.4619140625,
+    "E_f_eV": 2.4862213134765625,
+    "converged": false,
+    "steps": 4000,
+    "opt": "FIRE+LBFGS"
+   },
+   "I_N": {
+    "E": -604.2630004882812,
+    "E_f_eV": 2.712782859802246,
+    "converged": true,
+    "steps": 136,
+    "opt": "FIRE"
+   }
+  }
+ }
+}
